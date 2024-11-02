@@ -1,23 +1,5 @@
 #!/bin/zsh
 
-echo "Enabling systemctl daemons..."
-loginctl enable-linger
-sudo systemctl enable --now iwd
-sudo systemctl enable --now bluetooth
-sudo systemctl enable --now sshd
-sudo systemctl enable --now avahi-daemon
-
-echo "Setting up gnome settings..."
-if command -v gsettings &>/dev/null; then
-  gsettings set org.gnome.desktop.interface gtk-theme Default-dark
-  gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
-  gsettings set org.gnome.desktop.interface icon-theme Adwaita
-  gsettings set org.gnome.desktop.peripherals.keyboard repeat-interval 33
-  gsettings set org.gnome.desktop.peripherals.keyboard delay 220
-  gsettings set org.gnome.desktop.input-sources sources "[('xkb', 'us'), ('xkb', 'gr')]"
-  gsettings set org.gnome.desktop.wm.keybindings switch-windows "['<Alt>Tab']"
-fi
-
 echo "Setting up asdf..."
 git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.13.1
 
@@ -57,26 +39,17 @@ grep -qxF 'DefaultLimitNOFILE=65536' /etc/systemd/user.conf || echo 'DefaultLimi
 echo "Optimizing ssd..."
 sudo systemctl enable fstrim.timer
 
-echo "Setting up docker..."
-ls -al /dev/kvm
-sudo usermod -aG kvm $USER
-sudo usermod -aG docker $USER
-docker --version
-# .socket instead of .service to start docker deamon only when needed
-sudo systemctl enable --now docker.socket
-docker context use default
-docker compose version
+#echo "Setting up docker..."
+#ls -al /dev/kvm
+#sudo usermod -aG kvm $USER
+#sudo usermod -aG docker $USER
+#docker --version
+## .socket instead of .service to start docker deamon only when needed
+#sudo systemctl enable --now docker.socket
+#docker context use default
+#docker compose version
 
 echo "Configuring NodeJS..."
 corepack enable pnpm
 corepack enable yarn
 asdf reshim nodejs
-
-echo "Installing global npm packages..."
-npm i -g npm-workspaces-language-server
-
-echo "Setting xdg default web browser..."
-ORIGINAL_BROWSER=$BROWSER
-unset BROWSER
-xdg-settings set default-web-browser librewolf.desktop
-export BROWSER=$ORIGINAL_BROWSER
