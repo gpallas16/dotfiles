@@ -1,0 +1,709 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="709">
+  <name>Start 11 Simple</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>zayronXIO</author>
+  <homepage>https://store.kde.org/p/2185962</homepage>
+  <licence></licence>
+  <version>1.0.2</version>
+  <rating>61</rating>
+  <downloads>512</downloads>
+  <installedfile>/home/giorgos/.local/share/plasma/plasmoids/Start.11.Simple/</installedfile>
+  <id>2185962</id>
+  <releasedate>2024-10-27</releasedate>
+  <summary>start 11 simple it's a start menu inspired by Andrew's concept, on dribbble.com&lt;br />
+[link=https://dribbble.com/shots/16617786-Start-Menu-Concept-2-2]Link[/link]</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/24/01/13/2185962/simplemenu.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/24/01/13/2185962/simplemenu.png</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE3Mjk0NTkyNDYiLCJvIjoiMSIsInMiOiJhZTI5ZTFlZjU2YzRmNjExNGI3MGQ1MGVjYzg4OThmOTZiZmZlMTViNTBhYzYyZDJlNGRlMGQ1NTM0NzU3NDJmMDkwZjY3N2YwMDg2OTI4ZTAyYWIxNmQ0NWFhMGU2MjE0ODRhMDBjMWVjMTI5YmE1NmYwNzU0MzNkZjY4NTU5MSIsInQiOjE3MzA2NDEyOTYsInN0ZnAiOm51bGwsInN0aXAiOiI3OS4xMDMuMjE5LjgyIn0.44tQCxvNmY-laxNiGSLWj0H9P_RbfCFYt3zC2BFKNaQ/Start.11.Simple.tar.xz</payload>
+  <tags>linux,kde,unix,plasma,extension,agplv3</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="706">
+  <name>Application Title Bar</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>antroids</author>
+  <homepage>https://store.kde.org/p/2135509</homepage>
+  <licence></licence>
+  <version>0.7.4</version>
+  <rating>81</rating>
+  <downloads>846</downloads>
+  <installedfile>/home/giorgos/.local/share/plasma/plasmoids/com.github.antroids.application-title-bar/</installedfile>
+  <id>2135509</id>
+  <releasedate>2024-10-07</releasedate>
+  <summary>Widget with window title and control buttons.&lt;br />
+&lt;br />
+In cases of panel freezes or crashes: https://github.com/antroids/application-title-bar?tab=readme-ov-file#-in-cases-of-panel-freezes-or-crashes-</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/77/08/97/2135509/logonew.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/77/08/97/2135509/logonew.png</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE3MjgzMDA4MTEiLCJvIjoiMSIsInMiOiJjZWQxN2YwOGEwNDc0MmQwM2MwOWQ2MTM5ZjlhYjAzNmVmYmRmNDIwNTliOTA3OWVkMDAyOTJjMGVjNTRjOWNlMWFiMmRjNjAwYTIyN2FiMjkzMDRhYzAzYzQyZDg4OGYxNDRiZjQwNzUwZjcwMTgyNWQyMzY2MTYyZjQyMTFhNiIsInQiOjE3MzA1NjUwNDcsInN0ZnAiOm51bGwsInN0aXAiOiI3OS4xMDMuMjE5LjgyIn0.1W_l0KBLaQCJt6xqaehWzfqTqMnOnPBhg8Yqj9R0-M4/application-title-bar-0.7.4.plasmoid</payload>
+  <tags>original-product,notitlebar,buttons,linux,kde,kde-plasma,gplv3,window,unix,plasma,plasmoid,extension</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="706">
+  <name>Toggle Overview Widget for Plasma 6</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>himdek</author>
+  <homepage>https://store.kde.org/p/2132554</homepage>
+  <licence></licence>
+  <version>1.4</version>
+  <rating>60</rating>
+  <downloads>30951</downloads>
+  <installedfile>/home/giorgos/.local/share/plasma/plasmoids/com.himdek.kde.plasma.overview/</installedfile>
+  <id>2132554</id>
+  <releasedate>2024-08-15</releasedate>
+  <summary>Just a simple widget that opens the Overview on click. You can now put a button to open the Overview in panels and desktop. This can easily replace any Application Launcher as it has a powerful Krunner search box.&lt;br />
+&lt;br />
+&lt;a href="https://store.kde.org/p/2008499/" target="_blank"...</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/66/42/38/2132554/screenshot-20230326-174011.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/66/42/38/2132554/screenshot-20230326-174011.png</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE3MTQ4ODY5MDkiLCJvIjoiMSIsInMiOiIyMDJjNjBiZDNkMjk0MGUxMTMyYjljYjM4YzcwODVlODE0YTUyMjU3ZDdjYWYzOTFkN2ZkMzA1YmQxYzc0MjkzOTdiYWYwZjM0NjhiOWMwZGE0MDNjOGE4M2U5NTg1ODQ3MWFkNDk3YTQ0NmFhZDI1NTE5ZjUzNDU2MjcyMDIyYiIsInQiOjE3MzA1ODAwMjcsInN0ZnAiOm51bGwsInN0aXAiOiI3OS4xMDMuMjE5LjgyIn0.iRawONlZ5KQ-8KkgtSS75DIgXWxfqNkp3VhCy9Ms1M8/overview.plasmoid</payload>
+  <tags>extension,launcher,fullscreen,linux,kde,krunner,gplv3,appmenu,plasma,unix,original-product,overview</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="711">
+  <name>Solid Plain Music</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>zayronXIO</author>
+  <homepage>https://store.kde.org/p/2189637</homepage>
+  <licence></licence>
+  <version>0.5</version>
+  <rating>50</rating>
+  <downloads>9295</downloads>
+  <installedfile>/home/giorgos/.local/share/plasma/plasmoids/Solid.Plain.Music/</installedfile>
+  <id>2189637</id>
+  <releasedate>2024-10-28</releasedate>
+  <summary>Hover over the pointer to see the controls</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/24/01/13/2189637/26.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/24/01/13/2189637/26.png</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE3MjM2MDk3ODUiLCJvIjoiMSIsInMiOiI2ODY3MGY0NWM0NjMyMTVkZmI3OTVmZjZjYjQyMzE2YWUzNjMwNTQxNDZhYzA3NjYyY2Q1ZmU4ZWY1MzQzOTE5ZjBiYTg0YTkzNGM4NDY1ZWJmOThlN2U0NzAzMjgyOTE5ZDYzMGVjNDcxZmEyODUyYWJmZTI4ZDRkOTVjN2U4MiIsInQiOjE3MzA1NjU4ODgsInN0ZnAiOm51bGwsInN0aXAiOiI3OS4xMDMuMjE5LjgyIn0.qNdwWz_cJaj-5BHkOxIVPRJRsIVtZZCXGhFH0pYnMyw/Solid.Plain.Music.tar.xz</payload>
+  <tags>kde,linux,agplv3,unix,plasma,extension</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="711">
+  <name>Minimal Music Plasma 6</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>zayronXIO</author>
+  <homepage>https://store.kde.org/p/2141133</homepage>
+  <licence></licence>
+  <version>2.0.2</version>
+  <rating>50</rating>
+  <downloads>5847</downloads>
+  <installedfile>/home/giorgos/.local/share/plasma/plasmoids/org.kde.MinimalMusic.P6/</installedfile>
+  <id>2141133</id>
+  <releasedate>2024-10-28</releasedate>
+  <summary>.</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/24/01/13/2141133/ddsdf.jpg</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/24/01/13/2141133/ddsdf.jpg</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE3MjE1OTQ2MTMiLCJvIjoiMSIsInMiOiIwMzEzMzM0OGI4NDM2ZmQ4MTE3YmY3ZDdhNWJiZWJiMGJhN2YxYWViYzY0NmZkMjkyYjY1MzNlNmM2YThiNTJjZDJkYzA0NDgwMzk1MWVkY2YyY2NkZWJjMTkxYjkyNmRkNzcyYjRiMmJiNGI3NWFkNDA0Nzg4MDc0ZDYwYzIwZCIsInQiOjE3MzA1NjYzMDIsInN0ZnAiOm51bGwsInN0aXAiOiI3OS4xMDMuMjE5LjgyIn0.ARxSm2Z-nQSLFIR4PhplaeE6r2ZZaOt52zWPRJynrsc/org.kde.MinimalMusic.P6.tar.xz</payload>
+  <tags>plasma,unix,agplv3,linux,kde,extension</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="706">
+  <name>KDE Control Station</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>eliverlara</author>
+  <homepage>https://store.kde.org/p/2196105</homepage>
+  <licence></licence>
+  <version></version>
+  <rating>57</rating>
+  <downloads>13750</downloads>
+  <installedfile>/home/giorgos/.local/share/plasma/plasmoids/KdeControlStation/</installedfile>
+  <id>2196105</id>
+  <releasedate>2024-10-30</releasedate>
+  <summary>A modern configuration center for KDE plasma based on the awesome &lt;a href="https://store.kde.org/p/1916655/" target="_blank" rel="nofollow">kde_controlcentre&lt;/a> by &lt;a href="https://github.com/Prayag2" target="_blank" rel="nofollow">Prayag2&lt;/a>&lt;br />
+&lt;br />
+&lt;br />
+&lt;br />
+&lt;strong>Highlighted...</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/36/61/48/2196105/screenshot-20240827-1544301.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/36/61/48/2196105/screenshot-20240827-1544301.png</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE3Mjc3NDExNTgiLCJvIjoiMSIsInMiOiJkMTA0ZTdiNmY0MmNjMTY5Mzc5MTEyMzExODhmZjlmN2QwMTI5NWI0MjkwNzM1ZWMyOWE0Yzk3MTBhZTZlYWQwYzQ0YTA3ZWE3NmEzYzI2NTkyZGYxOTY4NjA4ZmJjODFkMTY4ZjRhMjk4MjA3NzdkNTJiNzMwZWMyMDIzNzcyNiIsInQiOjE3MzA1NjkyODcsInN0ZnAiOm51bGwsInN0aXAiOiI3OS4xMDMuMjE5LjgyIn0.Mc_Jb6igj_GDh5tf4XwKwUyT5ZrARnbLC8KmE7nYQF4/KdeControlStation.tar.xz</payload>
+  <tags>extension,gplv3,linux,kde,plasma,unix</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="708">
+  <name>Mechanical Clock</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>zayronXIO</author>
+  <homepage>https://store.kde.org/p/2187962</homepage>
+  <licence></licence>
+  <version>1.0</version>
+  <rating>50</rating>
+  <downloads>3560</downloads>
+  <installedfile>/home/giorgos/.local/share/plasma/plasmoids/MechanicalClock/</installedfile>
+  <id>2187962</id>
+  <releasedate>2024-10-20</releasedate>
+  <summary>inpired in skin by ApexXx-SenSei</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/24/01/13/2187962/fg.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/24/01/13/2187962/fg.png</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE3MjMyMjkyMDciLCJvIjoiMSIsInMiOiI2MTZlMzc0NDIxOTA1YzlmZTI1MTBkNjcyNTE4YWYzMmY5NTQxNzk3ODI2YTNkZDVjM2U2N2ZiYmJkOWY4MjUxZTk4MzA3NDg1OWY3NTA2ZTcwZmI5M2E5MzdjNDk4NDlmMjVjZGNjMDkzMjQ2MjhlNmRkMzkyYzRhMjRjZTJkYSIsInQiOjE3MzA2NDEzMDksInN0ZnAiOm51bGwsInN0aXAiOiI3OS4xMDMuMjE5LjgyIn0.Bp4_uz6mnyS2CiNdqM4NSKfUkjlVAefCwPaVemN5uVk/MechanicalClock.tar.xz</payload>
+  <tags>unix,plasma,linux,kde,conky,extension,agplv3</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="706">
+  <name>Plasma Control Hub</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>zayronXIO</author>
+  <homepage>https://store.kde.org/p/2139890</homepage>
+  <licence></licence>
+  <version>0.3.6</version>
+  <rating>61</rating>
+  <downloads>1340</downloads>
+  <installedfile>/home/giorgos/.local/share/plasma/plasmoids/Plasma.Control.Hub/</installedfile>
+  <id>2139890</id>
+  <releasedate>2024-10-27</releasedate>
+  <summary>&lt;h3>Plasma-Control-Hub is a similar macos control center applet, created especially for use in plasma. This widget is not a fork of Prayag2's work, although some of its code was reused. It's still a work in progress, it may not work. &lt;/h3>&lt;br />
+&lt;br />
+&lt;strong>Features&lt;/strong>&lt;br />
+&lt;br...</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/24/01/13/2139890/logo.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/24/01/13/2139890/logo.png</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE3MzAwNDgwOTUiLCJvIjoiMSIsInMiOiJhZjNmYmJhMGU0NWI3ZDVjZTZjOWQ2NGQwNzRiNmIzMWY0NzMwZDEzOWY2MDk3MzdhYWY4OWU2ODdlYzY3OWNmZmQ0NTQ2MzQxZGRjZDZjZGI3YmRlNGZjODk0MGU1ZmExNThhZTUxZWZmZWI2YWFhYTdkOTE4MDMxN2ZiMTNiOCIsInQiOjE3MzA2NDEyOTgsInN0ZnAiOm51bGwsInN0aXAiOiI3OS4xMDMuMjE5LjgyIn0.2Flaaz0T5iI5gghMK2iIfL9u00Jzm5wQlCcisLaOiDs/Plasma.Control.Hub.tar.xz</payload>
+  <tags>plasma,unix,original-product,extension,cc-by,kde,linux,hub</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="706">
+  <name>Window Title Applet 6</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>dhruv8sh</author>
+  <homepage>https://store.kde.org/p/2129423</homepage>
+  <licence></licence>
+  <version>v0.9.0</version>
+  <rating>71</rating>
+  <downloads>67343</downloads>
+  <installedfile>/home/giorgos/.local/share/plasma/plasmoids/org.kde.windowtitle/</installedfile>
+  <id>2129423</id>
+  <releasedate>2024-07-28</releasedate>
+  <summary>A Plasma 6 applet that builds on the work by Psifidotos.</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/62/52/79/2129423/screenshot-20240309-033004.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/62/52/79/2129423/screenshot-20240309-033004.png</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE3MDk5MzU2NzIiLCJvIjoiMSIsInMiOiIzMGNmMGQyOThhOWQ2ZjIwNTE2OWVjODE5MWZkMGE3NTc4NDFmOThjMjQ1NGU5ZTVhZWIyMTljMTE3MjRhNzljZTk5MWRiMzg2ZGM4MjY5MzQyNGVhNDAzMzVkYTQ4OTBkOTNhODc5ODk3MTUwYmVkODAwNDRjOWJlMTM1ZGVlZiIsInQiOjE3MzA1ODAwMjUsInN0ZnAiOm51bGwsInN0aXAiOiI3OS4xMDMuMjE5LjgyIn0.b_GO16-vxkfdv_NIaUsu5kaPiVecs0X3E0js-4b6knQ/v0.4.tar.gz</payload>
+  <tags>applet,extension,original-product,plasma,plasma-desktop,plasmoid,unix,linux,gplv2,kdeplasma,kde,kde-plasma</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="708">
+  <name>Soniq Widget</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>zayronXIO</author>
+  <homepage>https://store.kde.org/p/2180314</homepage>
+  <licence></licence>
+  <version>0.5.3</version>
+  <rating>50</rating>
+  <downloads>219</downloads>
+  <installedfile>/home/giorgos/.local/share/plasma/plasmoids/Soniq.Widget/</installedfile>
+  <id>2180314</id>
+  <releasedate>2024-10-26</releasedate>
+  <summary>widget to display the time, current day, current temperature, and chance of rain.&lt;br />
+&lt;br />
+inspired in https://www.deviantart.com/xenium-art/art/Soniq-UPDATED-15-MAY-2024-837041925</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/24/01/13/2180314/soniq.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/24/01/13/2180314/soniq.png</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE3Mjk5NzY4ODgiLCJvIjoiMSIsInMiOiIwNDQ2YmE0MWU1MjcyN2NlODMzZGI3NmU2MGQwMDZkNGJiZjc0NjI1NWY1N2IxMWViYjIzNDUyNzU2MzYzZGY3N2QyZTQyMzg1M2M5NDEyMmYzOTc5ODFhMjk5ODEyNDJiNmY4YjU4MWQ4MDY4ZTBiMjVhODJhMGZkZDZhMWQwZSIsInQiOjE3MzA1NjcwMzIsInN0ZnAiOm51bGwsInN0aXAiOiI3OS4xMDMuMjE5LjgyIn0.aC4Kmbm3mKP8W8MusoAd3BcRvOi4rexERbHFtXAMM2A/Soniq.Widget.tar.xz</payload>
+  <tags>extension,plasma,unix,kde,linux,agplv3</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="706">
+  <name>Separator Line</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>doncsugar</author>
+  <homepage>https://store.kde.org/p/2136852</homepage>
+  <licence></licence>
+  <version>0.1.1</version>
+  <rating>68</rating>
+  <downloads>9776</downloads>
+  <installedfile>/home/giorgos/.local/share/plasma/plasmoids/org.kde.latte.separator/</installedfile>
+  <id>2136852</id>
+  <releasedate>2024-03-23</releasedate>
+  <summary>A port of Latte Dock's separator, Latte Separator by psifidotos. You can use this line to divide your panel into sections. Unfortunately, Latte Dock still needs help to be ported to Plasma 6, so this can only be used on the standard panel.</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/54/12/88/2136852/separatorline.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/54/12/88/2136852/separatorline.png</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE3MTAyMTI0NDUiLCJvIjoiMSIsInMiOiJjNTRhYmJjZTlhYTc5NzBlZGE0ZjBlODkwYTZjMzMwMzM2NjA0MWMyZWYyY2Y2ZmZkYzZiNmRiYzgyMmUyMjE4OWY5OTUxYjE4ZjdiNTdkYWZkNzgyY2ViZDFmN2UzNmUyNWVlOWQyNmNkOGZmZjBiYjcwMDViNWYyY2ExN2JjMyIsInQiOjE3MzA1Njk2OTAsInN0ZnAiOm51bGwsInN0aXAiOiI3OS4xMDMuMjE5LjgyIn0.Ryqm14YHTo2jpXfPbaDg3MiUV_Zkd3CPMljVhbEsAAM/org.kde.latte.separator.tar.xz</payload>
+  <tags>linux,gplv2-later,kde,extension,plasma,unix</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="706">
+  <name>plasmusic-toolbar</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>ccatterina</author>
+  <homepage>https://store.kde.org/p/2128143</homepage>
+  <licence></licence>
+  <version>2.0.0</version>
+  <rating>72</rating>
+  <downloads>1330</downloads>
+  <installedfile>/home/giorgos/.local/share/plasma/plasmoids/plasmusic-toolbar/</installedfile>
+  <id>2128143</id>
+  <releasedate>2024-10-06</releasedate>
+  <summary>KDE Plasma widget that shows currently playing song information and provide playback controls. &lt;br />
+&lt;br />
+ -  Show the currently playing song's title and artist in the KDE panel&lt;br />
+ -  Manage your music effortlessly with Play, Pause, Next, and Previous controls directly from the KDE...</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/73/70/89/2128143/plasmusic-screenshot-2.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/73/70/89/2128143/plasmusic-screenshot-2.png</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE3MjgyMTc1NDQiLCJvIjoiMSIsInMiOiI3N2UzNjBiN2ZhODNjYzRkMDRkMmI5NzZmMzFkMjFkNWMzNTFjZDQyZGFiMDUwMjhiNjNmM2U4YjdmMDE2YTNiMjIwMTcwODU4Y2E3MmZlNDljMmIwYzc5NGY5YjhjZmEzYzNmYmM3NDNjZTk2ZmY3ODJkOTZiZDAyNWFkYjRmYiIsInQiOjE3MzA1NjU5MjYsInN0ZnAiOm51bGwsInN0aXAiOiI3OS4xMDMuMjE5LjgyIn0.b5GX0ppu9YusjEpQu7rs0EAUeFToCL0YjJrFbBtgdl0/plasmusic-toolbar-v2.0.0.plasmoid</payload>
+  <tags>original-product,extension,unix,vlc,spotify,plasma,player,toolbar,gplv3,kde,music,linux</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="706">
+  <name>Netspeed Widget</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>HessiJames</author>
+  <homepage>https://store.kde.org/p/2136505</homepage>
+  <licence></licence>
+  <version>3.1</version>
+  <rating>72</rating>
+  <downloads>51011</downloads>
+  <installedfile>/home/giorgos/.local/share/plasma/plasmoids/org.kde.netspeedWidget/</installedfile>
+  <id>2136505</id>
+  <releasedate>2024-03-10</releasedate>
+  <summary>Plasma 6 widget that displays the currently used network bandwidth.&lt;br />
+&lt;br />
+The appearance can be customized in the configuration dialog and a user defined application (eg. nethogs) can be launched when the applet is clicked.&lt;br />
+&lt;br />
+Required dependencies:&lt;br />
+&lt;br />
+ - awk&lt;br />
+&lt;br...</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/03/18/67/2136505/logo.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/03/18/67/2136505/logo.png</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE3MTAxMDM3NDAiLCJvIjoiMSIsInMiOiIyMzYzNWRlOGY1M2NlYjZjNmJjNzI1YTllMjA2MTA2YWUxMjc2YWMwMWJkNDhiYWUxNjM2MjhmZWM5NDBhOTAxODYwNTI1ZTdkYzQzZDlkZmU5ODlkMDE3YzMyNzU5MzU5MWRiNDk2OGZkMzk2NmU1NDQ3MjAzMTM5MTY5YzIzNiIsInQiOjE3MzA1Njk2NzAsInN0ZnAiOm51bGwsInN0aXAiOiI3OS4xMDMuMjE5LjgyIn0.V4Lall4PT_LcTen6adIcMYwpzeII3lbIqPjBcrPvkJA/netspeed-widget-3.1.plasmoid</payload>
+  <tags>monitor,kde,linux,gplv2-later,plasma,unix,network,original-product,extension</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="712">
+  <name>Seeua Weather</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>zayronXIO</author>
+  <homepage>https://store.kde.org/p/2185174</homepage>
+  <licence></licence>
+  <version>1.0.2</version>
+  <rating>50</rating>
+  <downloads>715</downloads>
+  <installedfile>/home/giorgos/.local/share/plasma/plasmoids/Seeua.Weather/</installedfile>
+  <id>2185174</id>
+  <releasedate>2024-10-27</releasedate>
+  <summary>plasmoid that shows the day of the week, month, day of the month, and the current weather using the open-Meteo API.&lt;br />
+&lt;br />
+Credit for the design goes to in by ApexXx-SenSei, user of deviantart.&lt;br />
+&lt;a href="https://www.deviantart.com/apexxx-sensei/art/Gravo-801990279" target="_blank" rel="nofollow">Gravo&lt;/a>.&lt;br />
+&lt;br />
+&lt;strong>Features:&lt;/strong>&lt;br />
+&lt;ul>&lt;li>Can use Celsius or Fahrenheit&lt;/li>&lt;li>doesn't require an API key&lt;/li>&lt;li>sets the location based on your IP, but you can also provide the coordinates yourself if you prefer.&lt;/li>&lt;li>customizable size&lt;/li>&lt;li>It has support for several popular languages ​​in the community&lt;/li>&lt;/ul>&lt;br />
+&lt;br />
+&lt;br />
+&lt;strong>Donate me&lt;/strong>&lt;br />
+&lt;span style="color: #225862;">&lt;strong>If you like my job and you want to help me, invite me to a cafe. Here is a link so you can donate through PayPal if you wish:&lt;/strong>&lt;/span>&lt;br />
+&lt;a href="https://www.paypal.me/zayronxio" target="_blank" rel="nofollow">&lt;span style="color: #077dd2;">&lt;strong>Donate&lt;/strong>&lt;/span>&lt;/a></summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/24/01/13/2185174/seeuaweather.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/24/01/13/2185174/seeuaweather.png</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE3Mjg5MzcxNDEiLCJvIjoiMSIsInMiOiI3YTcxMzY3OTRiMTdjMzAxNGQ2MWZlYTFlZjc3NWFkNjFlYzhlYmQwZmI3N2Q1ZTY0N2UyMjE0MzQ2OWFhYWQxNTU3NDE1MjcxOGI0YmY5NTRkMDI3NjkzYjM0MDIyYTcxOWI0ZGFkNzZlYzk1NDQ5ZDZlNzkyZjA3MGUzNGRjOCIsInQiOjE3MzA2NDEzMDAsInN0ZnAiOm51bGwsInN0aXAiOiI3OS4xMDMuMjE5LjgyIn0.wnW2WJhJva8EM2AUMdjYJke9XY-HWJpzxBvbWMIUSFM/Seeua.Weather.tar.xz</payload>
+  <tags>kde,linux,original-product,agplv3,conky,extension,plasma,unix</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="711">
+  <name>Media Controller Minimum</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>yidaozhan-ya</author>
+  <homepage>https://store.kde.org/p/2138283</homepage>
+  <licence></licence>
+  <version>1.2</version>
+  <rating>50</rating>
+  <downloads>1515</downloads>
+  <installedfile>/home/giorgos/.local/share/plasma/plasmoids/ink.chyk.minimumMediaController/</installedfile>
+  <id>2138283</id>
+  <releasedate>2024-03-17</releasedate>
+  <summary>This widget is a fork of Plasma's built-in media contoller widget, providing a minimal media info &amp;amp; controller bar for Plasma 6.&lt;br />
+It refers to mediacontroller_plus and kde-currently-playing.</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/64/11/65/2138283/screenshot.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/64/11/65/2138283/screenshot.png</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE3MTA2NTA1MjciLCJvIjoiMSIsInMiOiI4ZmZjNzQ3NzVkYWU2ZWQ1NTA3NDUxMThlNzMzNWI0NGNiN2ZjYWVmMjgyNWQwNzQ4NWE2OTVkZWUwNDllZDk4ZjkzN2ExYTVlNTc0NDNjMDRiMWFjZjQzYWY2YzllYTZiY2I3YTg0ZjVmMjY1NjRkNGNjZmE0NGZjZjRlZWVhYSIsInQiOjE3MzA1NjU2MDksInN0ZnAiOm51bGwsInN0aXAiOiI3OS4xMDMuMjE5LjgyIn0.Hs1VDn66ZzyFXmxyj8nsGBk5LRg67m4EegIdxex9aB8/ink.chyk.minimumMediaController-1.2.plasmoid</payload>
+  <tags>original-product,unix,plasma,extension,kde,linux,media,mediainfo,lgplv2</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="711">
+  <name>Spectrum audio Emulator</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>zayronXIO</author>
+  <homepage>https://store.kde.org/p/2201084</homepage>
+  <licence></licence>
+  <version>0.2.1</version>
+  <rating>50</rating>
+  <downloads>1056</downloads>
+  <installedfile>/home/giorgos/.local/share/plasma/plasmoids/Emulator.Spectrum.Audio/</installedfile>
+  <id>2201084</id>
+  <releasedate>2024-10-28</releasedate>
+  <summary>This widget emulates audio spectrum bars using system volume as well as random values. Use it with an understanding of its functionality, as it doesn't actually analyze the audio; it emulates doing so</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/24/01/13/2201084/df.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/24/01/13/2201084/df.png</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE3MjY1MDczMDUiLCJvIjoiMSIsInMiOiJkMzA4OTNmYmUxZWM3NTQ0MDc3YjQ0OGJjMjI0YjNiOTIzZTgwMjFjMzJkNmMxZmJjMmFmMjhhMDExODE1NTZjNWMxMWI0N2FkODc4M2M2NWQ5OGViMWI1ZDA0ZjE0NzAwMGEyNGY5ZWRhZDI4ZDRjYzIwMTFkM2MxOTMxZTJlMSIsInQiOjE3MzA2NDcxMjMsInN0ZnAiOm51bGwsInN0aXAiOiI3OS4xMDMuMjE5LjgyIn0.IAbM6wNGSS1C1z0nt5w6yPPXLh4bG7FbVAd_iSwZW_s/Emulator.Spectrum.Audio.tar.xz</payload>
+  <tags>agplv3,linux,kde,extension,conky,original-product,plasma,unix</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="711">
+  <name>Music Mini</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>zayronXIO</author>
+  <homepage>https://store.kde.org/p/2187344</homepage>
+  <licence></licence>
+  <version>1.0</version>
+  <rating>50</rating>
+  <downloads>1290</downloads>
+  <installedfile>/home/giorgos/.local/share/plasma/plasmoids/MusicMini/</installedfile>
+  <id>2187344</id>
+  <releasedate>2024-09-25</releasedate>
+  <summary>Widget for the panel that displays audio spectrum bars during playback, along with the song's name. Additionally, it shows more information when clicked. You can set the position where it will appear when clicked in the settings, either anchored to the panel or centered on the screen.</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/24/01/13/2187344/rect1122.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/24/01/13/2187344/rect1122.png</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE3MjMwODcyMTQiLCJvIjoiMSIsInMiOiIzZGE3ZjIxODBmYmE5Yzc5MGFmZmMzNTczZjJjNzgxMzE4MTcwNGY1NzNlMTQ3OTE3N2U3NGExNDIxNjc2N2NkNjM4ZGMxY2E1MjY3ZmE4OThlYzQ5NzYxNThjYmIyNDc2MDNlZDUwYzllYzNjNjk4NzZjMWNhMGE3NTNlNTdlMCIsInQiOjE3MzA1NjYzMTAsInN0ZnAiOm51bGwsInN0aXAiOiI3OS4xMDMuMjE5LjgyIn0.NnA4479o5aeoCaes9WBjZNByPSf2zQ7-gK0G6rjH5ug/MusicMini.tar.xz</payload>
+  <tags>agplv3,linux,kde,extension,plasma,unix</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="711">
+  <name>musicWaves</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>zayronXIO</author>
+  <homepage>https://store.kde.org/p/2186442</homepage>
+  <licence></licence>
+  <version>0.1</version>
+  <rating>50</rating>
+  <downloads>11023</downloads>
+  <installedfile>/home/giorgos/.local/share/plasma/plasmoids/Music.Waves/</installedfile>
+  <id>2186442</id>
+  <releasedate>2024-10-26</releasedate>
+  <summary>music waves is plasmoid fork by audio.waves.widget. The main difference is that this plasmoid does not have an audio analyzer like audio.waves does. Instead, the bars that represent the audio are generated randomly based on the actual system volume</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/24/01/13/2186442/musicwaves.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/24/01/13/2186442/musicwaves.png</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE3MjI5MjAxMTgiLCJvIjoiMSIsInMiOiI3MjdkN2YzNmY2Mzc2Y2RjODFlY2MwNzdlYjNhYTFhZTI0NjBmYTRhOTVmMDkxYWZkNjVhNDhlNDgxM2E2OWYzMGQ3NmNlMzg2N2JlN2U2ZDI3OWFjOGExYTlkZTViYzg5YmVkNTNlZjRkMzNkOGMwOTBlMzg4NzcwMzk3MjUwNyIsInQiOjE3MzA2NDY5NDIsInN0ZnAiOm51bGwsInN0aXAiOiI3OS4xMDMuMjE5LjgyIn0.riE0BlkoquYhbgWao8CaP628xkdBIxBMOgzx3h3tMbc/Music.Waves.tar.xz</payload>
+  <tags>cc0,efi,extension,conky,unix,plasma,linux,kde</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="708">
+  <name>Redmi Clock</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>zayronXIO</author>
+  <homepage>https://store.kde.org/p/2175475</homepage>
+  <licence></licence>
+  <version>0.5.3</version>
+  <rating>50</rating>
+  <downloads>2627</downloads>
+  <installedfile>/home/giorgos/.local/share/plasma/plasmoids/Redmi.Clock/</installedfile>
+  <id>2175475</id>
+  <releasedate>2024-10-31</releasedate>
+  <summary>clock and weather widget inspired in widget of redmi os</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/24/01/13/2175475/bur.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/24/01/13/2175475/bur.png</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE3Mjg5NTQ1NzAiLCJvIjoiMSIsInMiOiI4ZmFjNzFkNTE3MzFiYjMzMzE0YzM2N2RjNmYwMTE1ZmExMTFhZDk3ZWM5M2I4M2NjMTQzMTYxM2M3OGUwYjIyYjg4OTFjYWRiN2JiNzM5MTY4MzkwZTBhOTQxN2IwMzU5NDFkYjJlYzU4NzExYjNkZmVhZTMxN2M3NWZjNDI4YiIsInQiOjE3MzA1NjY4OTMsInN0ZnAiOm51bGwsInN0aXAiOiI3OS4xMDMuMjE5LjgyIn0.hM7RZ7ATXd95p_f74PiTPVdK0Nfbz0AA30a94b0JJYc/Redmi.Clock.tar.xz</payload>
+  <tags>conky,extension,kde,linux,plasma,unix,agplv3</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="712">
+  <name>Small Weather Plasma6</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>zayronXIO</author>
+  <homepage>https://store.kde.org/p/2179833</homepage>
+  <licence></licence>
+  <version>0.5.3</version>
+  <rating>50</rating>
+  <downloads>770</downloads>
+  <installedfile>/home/giorgos/.local/share/plasma/plasmoids/Small.Weather.Plasma6/</installedfile>
+  <id>2179833</id>
+  <releasedate>2024-10-27</releasedate>
+  <summary>Small desktop widget with information on the current temperature, weather conditions, and the day's maximum and minimum temperatures.&lt;br />
+&lt;br />
+inspired by "Small Clean Weather" by zivallh on deviantart&lt;br />
+&lt;br />
+&lt;br />
+&lt;strong>Donate me&lt;/strong>&lt;br />
+&lt;span style="color:...</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/24/01/13/2179833/gsadf.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/24/01/13/2179833/gsadf.png</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE3Mjg4NzM4MjEiLCJvIjoiMSIsInMiOiI3YzkxYjcwNzM2N2E2MGNjZDdmYjhlMGZhYWQ3Y2QzMzM2ODBmOWFkZGE0YjQ1NWIwZmZjYWRiYmFhYWJjODg3MGZkN2EwNWUxNzkyZmQ5ZDNlYjlhNzA5NTQ0YmEyNDU2NTFhNDQ4NzJhNDE0OTQ3MzFkYTAzNmQ1NmUxNDFlNSIsInQiOjE3MzA1NjcwMjIsInN0ZnAiOm51bGwsInN0aXAiOiI3OS4xMDMuMjE5LjgyIn0.LTQ5oYUiZGflO8V3wHmO5Wf-hddu5boJQLrCS5ISdsM/Small.Weather.Plasma6.tar.xz</payload>
+  <tags>plasma,unix,agplv3,original-product,kde,linux,extension,conky</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="706">
+  <name>Window Buttons Applet 6 Prebuilt</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>himdek</author>
+  <homepage>https://store.kde.org/p/2151931</homepage>
+  <licence></licence>
+  <version>0.11.1-prebuilt-1</version>
+  <rating>50</rating>
+  <downloads>35201</downloads>
+  <installedfile>/home/giorgos/.local/share/plasma/plasmoids/org.kde.windowbuttons/</installedfile>
+  <id>2151931</id>
+  <releasedate>2024-08-15</releasedate>
+  <summary>This is a prebuilt distribution of &lt;a href="https://store.kde.org/p/2143556" target="_blank" rel="nofollow">Window Buttons Applet for Plasma 6 - WIP&lt;/a> which in turn was ported to Plasma 6 by &lt;a href="https://store.kde.org/u/moodyhunter" target="_blank" rel="nofollow">MOODYHUNTER&lt;/a> from &lt;a...</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/66/42/38/2151931/03b6b9696cf8c8debffbaaf0c43cae5f0522.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/66/42/38/2151931/03b6b9696cf8c8debffbaaf0c43cae5f0522.png</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE3MTQ3ODQyOTEiLCJvIjoiMSIsInMiOiI4MzJmNGViNmJkMTUwMWY4MDNiOTNkNTdjYjJiZGVmMzE3NDc1YjMwY2E2M2UwNjQ5MzIwN2M0ZGU3ZTk5MWJmZWU4YzUxMmM0OWMxNmM4M2RiZmU5ZmI2N2UwMzNiMTlkNTZiYWQ0MDM2N2JjMzliYTIxNzI2NDQ5MWFiYWRmNCIsInQiOjE3MzA1ODAwMjQsInN0ZnAiOm51bGwsInN0aXAiOiI3OS4xMDMuMjE5LjgyIn0.Z4xprSVfsO24SQFsnucpBzYALRqETQtAvGoJgyoGoGg/Window-Buttons-Applet-6.plasmoid</payload>
+  <tags>unix,plasma,linux,kde,gplv2-later,extension</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="709">
+  <name>Simple Application Launcher for Plasma 6</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>himdek</author>
+  <homepage>https://store.kde.org/p/2115883</homepage>
+  <licence></licence>
+  <version>2.5</version>
+  <rating>66</rating>
+  <downloads>58576</downloads>
+  <installedfile>/home/giorgos/.local/share/plasma/plasmoids/org.kde.plasma.simplekickoff/</installedfile>
+  <id>2115883</id>
+  <releasedate>2024-08-15</releasedate>
+  <summary>This is a simplified fork of Kickoff which is KDE Plasma 6 Desktop's default Application launcher. The design is minimalized without compromising on power and important features.&lt;br />
+&lt;br />
+For Plasma 5 variant, &lt;a href="https://www.pling.com/p/1819888/" target="_blank" rel="nofollow">click...</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/66/42/38/2115883/nordic-round-grid-1.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/66/42/38/2115883/nordic-round-grid-1.png</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE3MDk4OTQ0MDEiLCJvIjoiMSIsInMiOiJmN2ZjOTk5YTVlMjA3NDExNDA1OGJjM2U0NmM4Y2Y1NDNkMzljMDU4MDU2Y2M3YzJhMTJiMzg5MTU5ZmJkNDEyZWEwMjc5MWQ5N2RhOTYwMWNhMzdjNmQyZTRiMDZlOWY0MWRkNTQyNDFkYjYwYTA4ZWQzOWIwZjAzMGZmZTRhMSIsInQiOjE3MzA1ODAwMjMsInN0ZnAiOm51bGwsInN0aXAiOiI3OS4xMDMuMjE5LjgyIn0.C8F5Kx-MaKC00OZsW8lkJCPU75NSVpe7gD6CWh-J6Oo/Simple-Kickoff.plasmoid</payload>
+  <tags>appmenu,extension,efi,gplv2-later,kde,launcher,linux,start,startmenu,unix,plasma</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="707">
+  <name>OnlyText Date v2</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>zayronXIO</author>
+  <homepage>https://store.kde.org/p/2184730</homepage>
+  <licence></licence>
+  <version>1.0</version>
+  <rating>50</rating>
+  <downloads>1972</downloads>
+  <installedfile>/home/giorgos/.local/share/plasma/plasmoids/OnlyText.Date.Kde.v2/</installedfile>
+  <id>2184730</id>
+  <releasedate>2024-10-27</releasedate>
+  <summary>.</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/24/01/13/2184730/onlyt.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/24/01/13/2184730/onlyt.png</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE3MjI1Mzk1MzgiLCJvIjoiMSIsInMiOiIwMzU3MzlhMjhmYWYxNDZkMTUzOTA5MTA3ZTBiZGQ2ZDlkYjE2ODUwOGFhM2U5ZjU0ZGE5N2FjMWY2Mzg2ZjYwZTdiOGY0ZTIxZWNmMTQ1YWZkNmQ3YmViODhmMTAyY2Y5OWRmYzE0MDAzMGEwMGM2NzE2MmE3OTE2ZTAzOGVkOCIsInQiOjE3MzA2NDEzMTYsInN0ZnAiOm51bGwsInN0aXAiOiI3OS4xMDMuMjE5LjgyIn0.bxkIgGwmV8WXBj0yuhAFrp4k0cBpe0UzcmUplEdWAuA/OnlyText.Date.Kde.v2.tar.xz</payload>
+  <tags>extension,original-product,agplv3,plasma,unix,linux,kde</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="706">
+  <name>Minimal Chaac Weather for panel Plasma6</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>zayronXIO</author>
+  <homepage>https://store.kde.org/p/2136307</homepage>
+  <licence></licence>
+  <version>2.3.2</version>
+  <rating>58</rating>
+  <downloads>944</downloads>
+  <installedfile>/home/giorgos/.local/share/plasma/plasmoids/Minimal.chaac.weather/</installedfile>
+  <id>2136307</id>
+  <releasedate>2024-10-16</releasedate>
+  <summary>This widget displays the current weather and forecast for the coming days. &lt;br />
+&lt;br />
+Data is retrieved from the Open-Meteo API and processed using Bash and curl. If the widget doesn't work, you likely don't have curl installed.&lt;br />
+&lt;br />
+This widget determines your geographical...</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/24/01/13/2136307/captura-de-pantalla-20240309-132759.jpg</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/24/01/13/2136307/captura-de-pantalla-20240309-132759.jpg</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE3MjkxMTE2ODIiLCJvIjoiMSIsInMiOiJjNDg1MmNiODM4OGU0NTVmYWQ5NDY0YjQ0NzE1NzNjYzk4ZTUzNmY5OTM4MWFiMWYzZWI2NzkxYTJkNzczMzQxNDgxMjk5Zjc4ODJmNGRhODYxOGI3Y2RiZWJmMWQ1OWNkZTMwMzMyNWQ2MGVjN2U1M2E4OWJiMTU5YWUwNzExZSIsInQiOjE3MzA1NjY4MDcsInN0ZnAiOm51bGwsInN0aXAiOiI3OS4xMDMuMjE5LjgyIn0.7IlqH-QDsRTP9OK-P52qHerXrKhaEjZjkZlTA9zBc-g/Minimal.chaac.weather.tar.xz</payload>
+  <tags>agplv3,plasma,unix,rainmeter,kde,linux,extension,widget</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="711">
+  <name>Bix Plasma Player</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>zayronXIO</author>
+  <homepage>https://store.kde.org/p/2199942</homepage>
+  <licence></licence>
+  <version>0.1.2</version>
+  <rating>58</rating>
+  <downloads>8677</downloads>
+  <installedfile>/home/giorgos/.local/share/plasma/plasmoids/Bix.Plasma.Player/</installedfile>
+  <id>2199942</id>
+  <releasedate>2024-10-28</releasedate>
+  <summary>Bix Plasma is a music player in development. This is the alpha version, still with many tasks ahead.&lt;br />
+Currently it only supports mp3 but will soon support a greater number of formats.&lt;br />
+&lt;br />
+The plasmoid aims to provide an experience similar to a standalone music player, but keep in...</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/24/01/13/2199942/dfd.jpg</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/24/01/13/2199942/dfd.jpg</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE3MjYyODA1NjMiLCJvIjoiMSIsInMiOiI2ZTZlYzYwOTZiZGQ3MzRhYTQ1YTZkMDc0NTNlNTU2NGZkNzNmMGQ3ZDVhNDkwMjU5OGIzY2IxMWRmOGZjOWMyOWEzZGQ1M2QxMTg5N2I4ODYzZWUyNzI2ZTUyNDBhMjM0MjMwZTdiZDhlNWQ4OTM0NzQwOWQyMzdlOTY3ZmY4MiIsInQiOjE3MzA2NDEzMTEsInN0ZnAiOm51bGwsInN0aXAiOiI3OS4xMDMuMjE5LjgyIn0.G-DqtNeOKCB590qF8V1ra1cZYi64I9vlQxHgVICYozo/Bix.Plasma.Player.tar.xz</payload>
+  <tags>extension,agplv3,kde,linux,multimedia,unix,plasma</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="711">
+  <name>NowPlaying</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>nhilist-dev</author>
+  <homepage>https://store.kde.org/p/2195583</homepage>
+  <licence></licence>
+  <version>1.0</version>
+  <rating>50</rating>
+  <downloads>1161</downloads>
+  <installedfile>/home/giorgos/.local/share/plasma/plasmoids/org.ruiny.NowPlaying/</installedfile>
+  <id>2195583</id>
+  <releasedate>2024-08-28</releasedate>
+  <summary>A KDE Plasma widget inspired from the Cleartext rainmeter widget from windows.&lt;br />
+&lt;br />
+Feel free to make suggestions, issues or any feature requests on my github. Though I have more changes and extensions planned since I'm back to KDE as main driver.&lt;br />
+&lt;br />
+The font used in pictures...</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/60/32/81/2195583/screenshot-20240827-025428.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/60/32/81/2195583/screenshot-20240827-025428.png</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE3MjQ3MDg5ODAiLCJvIjoiMSIsInMiOiI1YjU1Mzg0MjdlMTNiNTFkZDMyMzQ3M2QzOGIzYzYxOGQ0MTIxZDc5ZjRjYTYwZmE2OWI5ZDM5MWI5MzgwMmZkNzBlYzU4Nzk2NjJkYmMzMmIyYTdiZWVjMjc3Yzg1ZTQ3N2ExYmU2NjRiMTc5YjNmNjc4YmIxMDdjNWE5YzgwYiIsInQiOjE3MzA2NDcxMjEsInN0ZnAiOm51bGwsInN0aXAiOiI3OS4xMDMuMjE5LjgyIn0.8dYhump7kEh1W1iX2VnQahc4YfVvonoKjswIULTWx40/NowPlaying.zip</payload>
+  <tags>extension,multimedia,musicplayer,linux,gplv3,kde,unix,plasma,plasma6,original-product</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="711">
+  <name>Audio Wave Widget</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>zayronXIO</author>
+  <homepage>https://store.kde.org/p/2142681</homepage>
+  <licence></licence>
+  <version>0.3.1</version>
+  <rating>47</rating>
+  <downloads>17481</downloads>
+  <installedfile>/home/giorgos/.local/share/plasma/plasmoids/Audio.Wave.Widget/</installedfile>
+  <id>2142681</id>
+  <releasedate>2024-10-18</releasedate>
+  <summary>This is a widget for KDE Plasma 6 that implements a small program developed in C++, leveraging the ALSA libraries included in most distributions and the Radix-2 FFT algorithm to analyze audio and display bars with a wave effect representing the music being played on the system. It also shows the...</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/24/01/13/2142681/audio-wave.jpg</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/24/01/13/2142681/audio-wave.jpg</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE3MTYwODYzNzkiLCJvIjoiMSIsInMiOiI4MWM1MWNkOTVkMmIwZTkzNTc3MzVhMWY4NjE1N2RlZGM4M2NiOWM4ZDk1MzhmYWRmOWZhMDBiZmI3YTg5MDI1NWQ0ODE3YTgzNzEwNDQ2OTQ2ZDk4OTcwNGJjZmRkODk3YTJjM2NiNmI3MjU3YmVmMTM0YjE1ZjUzNDM3YTg2ZCIsInQiOjE3MzA2NDY4NTQsInN0ZnAiOm51bGwsInN0aXAiOiI3OS4xMDMuMjE5LjgyIn0.-gJ6aFIlDXRBztLtEY5OvUaEpFi1a8eSKRB0r6F1mbY/Audio.Wave.Widget.tar.xz</payload>
+  <tags>extension,kde,linux,original-product,plasma,unix,cc-by-sa</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="706">
+  <name>Desktop Indicator</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>dhruv8sh</author>
+  <homepage>https://store.kde.org/p/2131462</homepage>
+  <licence></licence>
+  <version>v0.3</version>
+  <rating>69</rating>
+  <downloads>11234</downloads>
+  <installedfile>/home/giorgos/.local/share/plasma/plasmoids/org.kde.plasma.plasm6desktopindicator/</installedfile>
+  <id>2131462</id>
+  <releasedate>2024-03-18</releasedate>
+  <summary>A minimal virtual desktop indicator to be used as an alternative for a Pager.</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/62/52/79/2131462/screenshot-20240221-034215-2.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/62/52/79/2131462/screenshot-20240221-034215-2.png</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE3MTA3MjMxNzQiLCJvIjoiMSIsInMiOiI5NDA5NTRkYTllYmM4ZTc5MGM5MDQ4M2FjZjkyMWZkN2EwZGRjODgzZjdkODYzNDQwNWZiZjEzNWFkMzAzMTIzMjlhNWFmMTYyOTM3NmViNGJhY2I5YzFhNTIzMDgzNjM3OWYyYTRlMDQyMmE5NjIxMThiZDA1MmMwZjdmMDk3YiIsInQiOjE3MzA1ODA2NzgsInN0ZnAiOm51bGwsInN0aXAiOiI3OS4xMDMuMjE5LjgyIn0.xLj78KW6ARQpWaAcaSYtX6IjY9_xg73_cD6XYNBpOYE/v0.3.tar.gz</payload>
+  <tags>original-product,pager,unix,virtual-desktop,plasma,extension,kde,kde-plasma,gplv3,linux,applet</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="711">
+  <name>Media Controller for Panel</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>x-varlesh-x</author>
+  <homepage>https://store.kde.org/p/2164590</homepage>
+  <licence></licence>
+  <version>0.1</version>
+  <rating>50</rating>
+  <downloads>1097</downloads>
+  <installedfile>/home/giorgos/.local/share/plasma/plasmoids/org.kde.plasma.mediacontroller.panel/</installedfile>
+  <id>2164590</id>
+  <releasedate>2024-06-12</releasedate>
+  <summary>Media Controll on panel for Plasma 6&lt;br />
+This is modified original widget with replace AlbumCover to Controll Panel.&lt;br />
+Used sources Sebastian Kügler &amp;amp; Kirikaze Chiyuki.</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/43/80/78/2164590/mediacontroller-panel.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/43/80/78/2164590/mediacontroller-panel.png</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE3MTgxODEzMTQiLCJvIjoiMSIsInMiOiI2OTFlNDdiZWNlNjVkMzQ5OGE1YTdjZDQ2Y2Y2YWE1NGVhNmZlMTIxNDgzMmE0OGQwNWQ0ZDBjZjY5MzFhODIxZjdmNmRlYjkxMWFkZmVjMjQ3ZjU4MGFiY2Q3MmQyN2Y5ZWNmYzliMzgyOGI3NTEzMDJjYTVkODgwMjBmNmFjMiIsInQiOjE3MzA1NzI3NzIsInN0ZnAiOm51bGwsInN0aXAiOiI3OS4xMDMuMjE5LjgyIn0.V5rsrknypv0wvdFvQKBu4fW2XsF-CzMsern-MXU11HA/org.kde.plasma.mediacontroller.panel.plasmoid</payload>
+  <tags>linux,media,mediacontrol,gplv3,kde,control,extension,efi,plasma,playbar,playbar2,unix</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="709">
+  <name>Start Next Menu</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>zayronXIO</author>
+  <homepage>https://store.kde.org/p/2179317</homepage>
+  <licence></licence>
+  <version>0.5.8</version>
+  <rating>50</rating>
+  <downloads>4218</downloads>
+  <installedfile>/home/giorgos/.local/share/plasma/plasmoids/Start.Next.Menu/</installedfile>
+  <id>2179317</id>
+  <releasedate>2024-10-16</releasedate>
+  <summary>based on the Ditto menu and inspired by the Windows menu.&lt;br />
+&lt;br />
+</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/24/01/13/2179317/menu2.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/24/01/13/2179317/menu2.png</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE3Mjg0NDQ3NzIiLCJvIjoiMSIsInMiOiJjZTJhMThiNDU5ZGQxNmZiNDA0ZmM0YjYwNTc4NjdhN2E5NTQxMWExMGViNTBlMGYyYzIzMjg3Nzc2MTkwMjZlOGQ3MTI2NWNiNjY2NmNjM2JiM2Y2YzY0MWMyZWNhYzFjY2MyZjI2MzliYTIzMDZkZmUzODQyNGI4Mzg1YjkxNSIsInQiOjE3MzA2NDEyOTksInN0ZnAiOm51bGwsInN0aXAiOiI3OS4xMDMuMjE5LjgyIn0.NAS83IHYcDjmExLtwIqXOY0HQk9WY8UF4Rwpdu_5dkk/Start.Next.Menu.tar.xz</payload>
+  <tags>agplv3,plasma,unix,start11v2,extension,kde,linux,menu</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="711">
+  <name>MediaBar</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>climber</author>
+  <homepage>https://store.kde.org/p/1377704</homepage>
+  <licence></licence>
+  <version>2.2</version>
+  <rating>60</rating>
+  <downloads>4241</downloads>
+  <installedfile>/home/giorgos/.local/share/plasma/plasmoids/org.kde.mediabar/</installedfile>
+  <id>1377704</id>
+  <releasedate>2024-04-19</releasedate>
+  <summary>Media Player Controls widget for KDE Plasma.&lt;br />
+&lt;br />
+Features:&lt;br />
+ * View and control Media from inside a panel or dock (such as Latte Dock)&lt;br />
+ * Simple format: Artist Name - Track Title&lt;br />
+ * View Album and Album Art on expanded view and tooltip&lt;br />
+ * View current position of...</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/56/99/23/1377704/a85858ec3dfa3e362141bf97a0b845164567.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/56/99/23/1377704/a85858ec3dfa3e362141bf97a0b845164567.png</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE3MTM1MzExODMiLCJvIjoiMSIsInMiOiJmYWVmNmIzZDQzZWY1OTc4Yzc2MjNlOTBjMjlhZjQyMTg5ZTkxOGFjMTE4OTMzODZiMjM5NzY5MTZiOWE1MzRiMTIxMDhiMzUxYmU5NTA1MjE3YzlmMmU3YWQ3MzU4YjExOWQzMzNlYWM2NDM3ZThmMmQ5N2VlY2E3NjUwZmM3YiIsInQiOjE3MzA1NjU2MDgsInN0ZnAiOm51bGwsInN0aXAiOiI3OS4xMDMuMjE5LjgyIn0.D-LqzbTfGOQqnOa-GTQVFOviHGx_k2IX4UMMzWK56_8/MediaBar-2.2.tar.gz</payload>
+  <tags>widget,multimedia,kde,linux,gplv3,latte-dock,plasma,plasmoid,unix,extension</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="707">
+  <name>almanac Asimetric</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>zayronXIO</author>
+  <homepage>https://store.kde.org/p/2158349</homepage>
+  <licence></licence>
+  <version>0.5</version>
+  <rating>50</rating>
+  <downloads>1008</downloads>
+  <installedfile>/home/giorgos/.local/share/plasma/plasmoids/Almanac.Asimetric/</installedfile>
+  <id>2158349</id>
+  <releasedate>2024-09-06</releasedate>
+  <summary>.</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/24/01/13/2158349/asimetric.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/24/01/13/2158349/asimetric.png</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE3MTY2NjA1NzUiLCJvIjoiMSIsInMiOiJiOTJmZTQ0ODllYzE1ZjZiMTcyZGY5YTQ1YzliNTNhNzdhODhhYWI1Y2E3MTVmMzEyNTZmYmRhNDg1M2MzMjhiYzQ5ZjkxMjA1MDQ4ZjFmYjU3NTRkZjNjOTdmMzE0ZjBkNWZmZjE2MTYxZjJiY2E3NWY4MDFiYjhmZTg0MWFjZiIsInQiOjE3MzA2NDEzMTAsInN0ZnAiOm51bGwsInN0aXAiOiI3OS4xMDMuMjE5LjgyIn0.L5_4W2Ol8DSEHu2l7tKr80o6JdqvPGhwmPupVYHZzck/Almanac.Asimetric.tar.xz</payload>
+  <tags>original-product,kde,linux,modern,agplv3,unix,plasma,extension</tags>
+  <status>installed</status>
+ </stuff>
+</hotnewstuffregistry>

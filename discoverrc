@@ -1,0 +1,5 @@
+[FlatpakSources]
+Sources=flathub
+
+[Software]
+UseOfflineUpdates=true

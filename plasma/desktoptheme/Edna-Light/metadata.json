@@ -1,0 +1,19 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "gicalucejo@gmail.com",
+                "Name": "jomada"
+            }
+        ],
+        "Category": "",
+        "Description": "Edna-Light for Plasma",
+        "EnabledByDefault": true,
+        "Id": "Edna-Light",
+        "License": "LGPL",
+        "Name": "Edna-Light",
+        "Version": "2.1",
+        "Website": "https://seduccionlinux.wordpress.com"
+    },
+    "X-Plasma-API": "5.0"
+}
