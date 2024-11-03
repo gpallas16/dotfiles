@@ -93,11 +93,8 @@ ForegroundVisited=127,140,141
 [General]
 ColorSchemeHash=e3d37d8e258cec31c173bd551574a11abfa759f1
 
-[Icons]
-Theme=Deepin-4All
-
 [KDE]
-LookAndFeelPackage=Lenny
+LookAndFeelPackage=Wings-Light-Global-6
 
 [KFileDialog Settings]
 Allow Expansion=false
