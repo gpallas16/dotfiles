@@ -14,3 +14,5 @@ packages=(
 
 install_packages "${packages[@]}"
 
+echo "be sure GRUB_CMDLINE_LINUX_DEFAULT variable, includes nvidia.NVreg_EnableGpuFirmware=0. Then run update-grub"
+

@@ -45,6 +45,12 @@ packages=(
   "genymotion"
   "flatpak"
   "konsave"
+  "update-grub"
+  "google-chrome"
+  "spotify"
+  "jetbrains-toolbox"
+  "asdf-vm"
+  "bash-completion"
 )
 
 install_packages "${packages[@]}"

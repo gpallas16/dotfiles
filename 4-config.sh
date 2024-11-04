@@ -1,8 +1,5 @@
 #!/bin/bash
 
-echo "Setting up asdf..."
-git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.13.1
-
 ## Add asdf plugins
 asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git
 asdf plugin add java https://github.com/halcyon/asdf-java.git
@@ -15,7 +12,7 @@ cd ~
 asdf install
 
 echo "Configuring java..."
-. ~/.asdf/plugins/java/set-java-home.bash
+#. ~/.asdf/plugins/java/set-java-home.bash
 
 echo "Modifying system for vite..."
 # Check current limit
