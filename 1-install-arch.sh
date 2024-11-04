@@ -119,12 +119,6 @@ fi
 #)
 
 # ------------------------------------------------------
-# Install required packages
-# ------------------------------------------------------
-#install_packages "${packages[@]}"
-zsh <(curl -s https://raw.githubusercontent.com/zap-zsh/zap/master/install.zsh) --branch release-v1
-
-# ------------------------------------------------------
 # Add user to wheel
 # ------------------------------------------------------
 sudoers_line='%wheel ALL=(ALL:ALL) NOPASSWD: ALL'
