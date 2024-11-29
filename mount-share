@@ -1,0 +1,24 @@
+sudo mkdir /mnt/nas
+
+sudo nano /etc/systemd/system/mnt-nas.mount
+
+paste
+
+GNU nano 8.2                                          /etc/systemd/system/smbshare.mount                                           Modified  
+[Unit]
+Description=Mount NAS
+After=network-online.target
+Wants=network-online.target
+
+[Mount]
+What=//synology-nas/main
+Where=/mnt/nas
+Type=cifs
+Options=username=main,password=THE_PASSWORD,vers=2.0
+
+[Install]
+WantedBy=multi-user.target
+
+
+sudo systemctl enable mnt-nas.mount
+sudo systemctl start mnt-nas.mount

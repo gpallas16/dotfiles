@@ -12,6 +12,7 @@
   excludesfile = ~/.gitignore_global
   # Don't consider trailing space change as a cause for merge conflicts
   whitespace = -trailing-space
+	autocrlf = false
 
 [fetch]
   # Auto-fetch submodule changes (sadly, won't auto-update)
