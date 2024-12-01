@@ -61,7 +61,8 @@ packages=(
   "mysql-workbench"
   "putty"
   "solaar"
-  "savedesktop"
+  "gnome-themes-extra"
+  "visual-studio-code-bin"
 )
 
 install_packages "${packages[@]}"
