@@ -4,4 +4,4 @@
 
 export PATH="$PATH:/opt/asdf-vm/bin"
 
-source ~/dotfiles/bash/functions.sh
+source ~/.dotfiles/bash/functions.sh

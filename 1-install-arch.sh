@@ -52,10 +52,16 @@ packages=(
   "gimp"
   "sshfs"
   "unrar"
-  "flameshot"
   "fwupd"
   "viber"
   "pacman-contrib"
+  "endeavour"
+  "geary"
+  "tuxguitar"
+  "mysql-workbench"
+  "putty"
+  "solaar"
+  "savedesktop"
 )
 
 install_packages "${packages[@]}"

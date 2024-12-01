@@ -28,6 +28,8 @@ mkdir -p "$HOME/.ssh"
 
 
 # linking
-create_symlink "$HOME/dotfiles/bash/.bashrc" "$HOME/.bashrc"
-create_symlink "$HOME/dotfiles/git" "$HOME/.config/git"
-create_symlink "$HOME/dotfiles/.tool-versions" "$HOME/.tool-versions"
+create_symlink "$HOME/.dotfiles/bash/.bashrc" "$HOME/.bashrc"
+create_symlink "$HOME/.dotfiles/git" "$HOME/.config/git"
+create_symlink "$HOME/.dotfiles/.tool-versions" "$HOME/.tool-versions"
+create_symlink "$HOME/.dotfiles/solaar/config.yaml" "$HOME/.config/solaar/config.yaml"
+create_symlink "$HOME/.dotfiles/solaar/rules.yaml" "$HOME/.config/solaar/rules.yaml"
