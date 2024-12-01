@@ -63,6 +63,7 @@ packages=(
   "solaar"
   "gnome-themes-extra"
   "visual-studio-code-bin"
+  "gufw"
 )
 
 install_packages "${packages[@]}"
