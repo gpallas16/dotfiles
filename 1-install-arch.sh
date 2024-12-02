@@ -64,6 +64,8 @@ packages=(
   "gnome-themes-extra"
   "visual-studio-code-bin"
   "gufw"
+  "gnome-tweaks"
+  "extension-manager"
 )
 
 install_packages "${packages[@]}"
