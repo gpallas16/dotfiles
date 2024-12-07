@@ -1,4 +1,4 @@
-SOLAAR
+﻿SOLAAR
 * sync config apo .config/solaar
           * arxeio me onoma 42-logitech-unify-permissions.rules sto /etc/udev/rules.d
             kai kserasma mesa
@@ -41,5 +41,7 @@ kde connect -> firewall rules
 
 NAUTILUS TERMINAL 
 gsettings set org.gnome.desktop.default-applications.terminal exec 'blackbox'
-gsettings set com.github.stunkymonkey.nautilus-open-any-terminal terminal alacritty
+gsettings set com.github.stunkymonkey.nautilus-open-any-terminal terminal blackbox
 
+EVOLVE
+https://sites.google.com/view/evolve-gtk-theme-manager/home
