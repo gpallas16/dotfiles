@@ -66,6 +66,10 @@ packages=(
   "gufw"
   "gnome-tweaks"
   "extension-manager"
+  "blackbox-terminal"
+  "ttf-hack-nerd"
+  "oh-my-posh"
+  "nautilus-open-any-terminal"
 )
 
 install_packages "${packages[@]}"

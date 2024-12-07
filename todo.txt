@@ -1,6 +1,5 @@
-Add yin yang config
-
-solaar -> * sync config apo .config/solaar
+SOLAAR
+* sync config apo .config/solaar
           * arxeio me onoma 42-logitech-unify-permissions.rules sto /etc/udev/rules.d
             kai kserasma mesa
             # This rule was added by Solaar.
@@ -40,6 +39,7 @@ kde connect -> firewall rules
                 * sudo ufw allow 1714:1764/udp
                 * sudo ufw allow 1714:1764/tcp
 
-na mpoun kai ellinika sto keyboard
+NAUTILUS TERMINAL 
+gsettings set org.gnome.desktop.default-applications.terminal exec 'blackbox'
+gsettings set com.github.stunkymonkey.nautilus-open-any-terminal terminal alacritty
 
-https://github.com/zzag/kwin-effects-sliding-notifications
