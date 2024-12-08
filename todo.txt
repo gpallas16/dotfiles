@@ -45,3 +45,6 @@ gsettings set com.github.stunkymonkey.nautilus-open-any-terminal terminal blackb
 
 EVOLVE
 https://sites.google.com/view/evolve-gtk-theme-manager/home
+
+THEME
+Copy assets from theme to .config/assets
