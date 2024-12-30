@@ -70,6 +70,8 @@ packages=(
   "ttf-hack-nerd"
   "oh-my-posh"
   "nautilus-open-any-terminal"
+  "evolution"
+  "evolution-ews"
 )
 
 install_packages "${packages[@]}"

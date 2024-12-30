@@ -47,6 +47,7 @@
     reprogrammable-keys, divert-gkeys, m-key-leds, mr-key-led, gesture2-gestures, gesture2-divert, gesture2-params, sidetone, equalizer, adc_power_management]
   _battery: 4096
   _modelId: B35040660000
+  _sensitive: {hires-scroll-mode: ignore, hires-smooth-invert: ignore, hires-smooth-resolution: ignore}
   _serial: A6CC919F
   _unitId: BAE796EC
   _wpid: '4066'
