@@ -322,7 +322,7 @@
 }
 
 .interactive-session .chat-input-container {
-  background-color:: #f3f8fe;
+  background-color: #f3f8fe;
 }
 
 .interactive-session .chat-input-container .chat-editor-container .monaco-editor .view-lines {
