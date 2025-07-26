@@ -326,7 +326,7 @@
 }
 
 .interactive-session .chat-input-container .chat-editor-container .monaco-editor .view-lines {
-  background: #e6f0fc
+  background: #e6f0fc;
   padding-left: 4px;
   padding-right: 4px;
 }
