@@ -316,6 +316,24 @@
   background: #f2f2f2 !important;
 }
 
+/* === Chat & Misc === */
+.monaco-grid-view {
+  background: #FFFFFF;
+}
+
+.interactive-session .chat-input-container {
+  background-color: #e6f0fc;
+}
+
+.interactive-session .chat-input-container .chat-editor-container .monaco-editor .view-lines {
+  background:rgb(220, 235, 253);
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.part.panel .composite {
+  border-top-color: transparent !important;
+}
         `,
         
         darkThemeCSS: `
