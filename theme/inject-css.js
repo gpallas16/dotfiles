@@ -247,8 +247,8 @@
   border-top-color: transparent !important;
 }
 
-.monaco-sash .vertical{
-background: #f2f2f2
+.monaco-sash.vertical {
+  background: #f2f2f2 !important;
 }
         `,
 
