@@ -246,6 +246,10 @@
 .part.panel .composite {
   border-top-color: transparent !important;
 }
+
+.monaco-sash {
+background: #FFFFFF
+}
         `,
 
     darkThemeCSS: `
