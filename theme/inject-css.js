@@ -119,10 +119,13 @@
   flex-direction: column;
 }
 
+.monaco-workbench .part.sidebar > .content {
+  width: calc(100%) !important;
+}
+
 /* === Editor Styling === */
 .monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab {
   border: none !important;
-  background: #ffffff !important;
 }
 
 .monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab.active {
@@ -223,15 +226,18 @@
 }
 
 .interactive-session .chat-input-container {
+  width: calc(100% - 20px);
   background-color: #f3f8fe;
+}
+
+.interactive-session .chat-input-container .chat-editor-container .monaco-editor {
+  width: calc(100%);
 }
 
 .interactive-session .chat-input-container .chat-editor-container .monaco-editor .view-lines {
   background: rgb(227, 237, 248);
-  padding-left: 4px;
-  padding-right: 4px;
-  margin-top: 2px;
-  margin-bottom: 2px;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 
 .part.panel .composite {
@@ -350,6 +356,10 @@
   flex-direction: column;
 }
 
+.monaco-workbench .part.sidebar > .content {
+  width: calc(100% - 10px) !important;
+}
+
 /* === Editor Styling === */
 .monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab {
   border: none !important;
@@ -454,15 +464,18 @@
 }
 
 .interactive-session .chat-input-container {
+  width: calc(100% - 20px);
   background-color: #10253d;
+}
+
+.interactive-session .chat-input-container .chat-editor-container .monaco-editor {
+  width: calc(100%);
 }
 
 .interactive-session .chat-input-container .chat-editor-container .monaco-editor .view-lines {
   background: #0d1f33;
-  padding-left: 4px;
-  padding-right: 4px;
-  margin-top: 2px;
-  margin-bottom: 2px;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 
 .part.panel .composite {
@@ -752,30 +765,12 @@
 
       console.log("Theme monitoring started");
     },
-
-    // Test function
-    testCSS: function () {
-      console.log("Testing CSS injection...");
-
-      // Create a test element
-      const testElement = document.createElement("div");
-      testElement.style.cssText =
-        "position: fixed; top: 10px; right: 10px; padding: 10px; background: red; color: white; z-index: 10000; font-family: monospace;";
-      testElement.textContent = "CSS Test - Injection Works!";
-      document.body.appendChild(testElement);
-
-      setTimeout(() => {
-        testElement.remove();
-        console.log("Test element removed");
-      }, 3000);
-    },
   };
 
   // Initialize the CSS injector
   CSSInjector.lastDetectedTheme = null;
   CSSInjector.applyThemeCSS();
   CSSInjector.startThemeMonitoring();
-  CSSInjector.testCSS();
 
   // Expose functions globally
   window.CSSInjector = {
@@ -785,7 +780,6 @@
     remove: () => CSSInjector.removeCustomCSS(),
     detectTheme: () => CSSInjector.detectTheme(),
     applyThemeCSS: () => CSSInjector.applyThemeCSS(),
-    testCSS: () => CSSInjector.testCSS(),
     removeInlineStyles: () => CSSInjector.removeInlineStyles(),
     forceApplyStyles: () => CSSInjector.forceApplyStyles(),
   };
@@ -796,7 +790,6 @@
   console.log("- CSSInjector.applyDarkTheme()");
   console.log("- CSSInjector.remove()");
   console.log("- CSSInjector.detectTheme()");
-  console.log("- CSSInjector.testCSS()");
   console.log("- CSSInjector.removeInlineStyles()");
   console.log("- CSSInjector.forceApplyStyles()");
 })();
