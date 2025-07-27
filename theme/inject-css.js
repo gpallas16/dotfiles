@@ -220,13 +220,16 @@
   flex-direction: column;
 }
 
+.monaco-workbench .part.auxiliarybar > .content {
+  width: calc(100%) !important;
+}
+
 /* === Chat & Misc === */
 .monaco-grid-view {
   background: #f2f2f2;
 }
 
 .interactive-session .chat-input-container {
-  width: calc(100% - 20px);
   background-color: #f3f8fe;
 }
 
@@ -458,13 +461,16 @@
   flex-direction: column;
 }
 
+.monaco-workbench .part.auxiliarybar > .content {
+  width: calc(100%) !important;
+}
+
 /* === Chat & Misc === */
 .monaco-grid-view {
   background: #000000;
 }
 
 .interactive-session .chat-input-container {
-  width: calc(100% - 20px);
   background-color: #10253d;
 }
 
