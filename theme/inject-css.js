@@ -186,14 +186,13 @@
 }
 
 .monaco-workbench .part.editor > .content {
-  position: relative;
   background: ${colors.background} !important;
 }
 
 .monaco-workbench .part.editor > .content .editor-group-container {
   border-radius: 0.5rem;
   overflow: hidden;
-  box-shadow: ${colors.shadowPrimary} 0px 3px 6px, ${colors.shadowSecondary} 0px 3px 6px;
+  box-shadow: ${colors.shadowPrimary} 0px 0px 0px, ${colors.shadowSecondary} 0px 0px 0px;
 }
 
 .monaco-editor {
@@ -235,6 +234,19 @@
 .monaco-workbench .part.titlebar > .titlebar-container > .titlebar-center > .window-title > .command-center .action-item.command-center-center {
   border-radius: 0.5rem;
   border: none;
+}
+
+.monaco-workbench .part.editor {
+  width: calc(100%) !important;
+}
+
+.monaco-workbench .part.editor > .content {
+padding: 0 !important;
+}
+
+.monaco-workbench .part.editor > .content .editor-group-container  { 
+  height: calc(100%) !important;
+  width: calc(100%) !important;
 }
 
 /* === Panel & Terminal Styling === */
