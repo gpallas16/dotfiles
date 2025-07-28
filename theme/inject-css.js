@@ -76,6 +76,10 @@
   box-shadow: inset 0 1px 0 ${colors.primaryAlpha09} !important;
 }
 
+.monaco-workbench .part.editor>.content .editor-group-container.active>.title .tabs-container>.tab.active{
+background-color: var(--vscode-tab-activeBackground) !important;
+}
+
 .notification-toast {
   backdrop-filter: blur(10px);
   border: 1px solid ${colors.primaryAlpha09} !important;
