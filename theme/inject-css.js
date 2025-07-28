@@ -7,13 +7,49 @@
   const CSSInjector = {
     styleID: "Custom-CSS-Injector",
 
-    // CSS content for different themes
-    lightThemeCSS: `
+    // Theme color variables
+    lightThemeColors: {
+      primary: '#f2f2f2',
+      primaryAlpha09: '#f2f2f209',
+      primaryAlpha12: '#f2f2f212',
+      primaryAlpha20: '#f2f2f220',
+      primaryAlpha30: '#f2f2f230',
+      secondary: '#ffffff',
+      accent: 'rgb(119, 176, 240)',
+      text: 'rgb(120, 120, 120)',
+      background: '#f2f2f2',
+      chatInput: '#f3f8fe',
+      chatEditor: 'rgb(227, 237, 248)',
+      separatorBorder: '#2b2d30',
+      shadowPrimary: 'rgba(0, 0, 0, 0.16)',
+      shadowSecondary: 'rgba(0, 0, 0, 0.23)'
+    },
+
+    darkThemeColors: {
+      primary: '#ffffff',
+      primaryAlpha09: '#ffffff09',
+      primaryAlpha12: '#ffffff12',
+      primaryAlpha20: '#00000020',
+      primaryAlpha30: '#00000030',
+      secondary: '#1819b',
+      accent: 'rgb(14, 80, 152)',
+      text: 'rgb(120, 120, 120)',
+      background: '#000000',
+      chatInput: '#10253d',
+      chatEditor: '#0d1f33',
+      separatorBorder: '#2b2d30',
+      shadowPrimary: 'rgba(0, 0, 0, 0.16)',
+      shadowSecondary: 'rgba(0, 0, 0, 0.23)'
+    },
+
+    // Base CSS template that uses color variables
+    getBaseCSS: function(colors) {
+      return `
 /* === Sidebar and General Styling === */
 .monaco-list-row.selected,
 .monaco-list-row.focused {
-  box-shadow: inset 0 1px 0 #f2f2f209 !important;
-  outline: 1px solid #f2f2f220 !important;
+  box-shadow: inset 0 1px 0 ${colors.primaryAlpha09} !important;
+  outline: 1px solid ${colors.primaryAlpha20} !important;
 }
 
 .monaco-workbench .monaco-list:not(.element-focused):focus:before {
@@ -25,7 +61,7 @@
 }
 
 .current-line-margin-both {
-  background-color: #f2f2f212 !important;
+  background-color: ${colors.primaryAlpha12} !important;
   width: calc(100% - 16px) !important;
   left: 12px !important;
   border-radius: 4px;
@@ -37,12 +73,12 @@
 
 .monaco-button {
   border-radius: 4px;
-  box-shadow: inset 0 1px 0 #f2f2f209 !important;
+  box-shadow: inset 0 1px 0 ${colors.primaryAlpha09} !important;
 }
 
 .notification-toast {
   backdrop-filter: blur(10px);
-  border: 1px solid #f2f2f209 !important;
+  border: 1px solid ${colors.primaryAlpha09} !important;
   border-radius: 8px !important;
 }
 
@@ -57,10 +93,10 @@
 }
 
 .sidebar ul[role=tablist] .action-item.checked {
-  background-color: #f2f2f212 !important;
-  box-shadow: inset 0 1px 0 #f2f2f209 !important;
+  background-color: ${colors.primaryAlpha12} !important;
+  box-shadow: inset 0 1px 0 ${colors.primaryAlpha09} !important;
   border-radius: 6px;
-  outline: 1px solid #f2f2f220 !important;
+  outline: 1px solid ${colors.primaryAlpha20} !important;
 }
 
 .sidebar ul[role=tablist] .action-label:before {
@@ -91,7 +127,7 @@
 }
 
 .context-view.monaco-menu-container {
-  border: 1px solid #f2f2f209 !important;
+  border: 1px solid ${colors.primaryAlpha09} !important;
   border-radius: 8px !important;
 }
 
@@ -99,7 +135,7 @@
   border-radius: 6px !important;
   backdrop-filter: blur(10px);
   overflow: hidden;
-  box-shadow: 0 0 10px #f2f2f230;
+  box-shadow: 0 0 10px ${colors.primaryAlpha30};
 }
 
 .suggest-widget .monaco-row {
@@ -126,11 +162,12 @@
 /* === Editor Styling === */
 .monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab {
   border: none !important;
+  background: ${colors.secondary} !important;
 }
 
 .monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab.active {
   border-radius: 0.5rem;
-  border: 1px solid rgb(119, 176, 240) !important;
+  border: 1px solid ${colors.accent} !important;
 }
 
 .editor-group-container {
@@ -140,7 +177,7 @@
 
 .tabs-and-actions-container {
   border-radius: 0.5rem 0.5rem 0 0;
-  background: #ffffff;
+  background: ${colors.secondary};
   padding: 0.35rem;
 }
 
@@ -150,13 +187,13 @@
 
 .monaco-workbench .part.editor > .content {
   position: relative;
-  background: #f2f2f2 !important;
+  background: ${colors.background} !important;
 }
 
 .monaco-workbench .part.editor > .content .editor-group-container {
   border-radius: 0.5rem;
   overflow: hidden;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  box-shadow: ${colors.shadowPrimary} 0px 3px 6px, ${colors.shadowSecondary} 0px 3px 6px;
 }
 
 .monaco-editor {
@@ -170,7 +207,7 @@
 
 .breadcrumbs-below-tabs {
   overflow: hidden;
-  background: #ffffff;
+  background: ${colors.secondary};
 }
 
 .monaco-breadcrumbs {
@@ -179,7 +216,7 @@
 
 .monaco-editor .sticky-widget {
   box-shadow: none;
-  border-color: #2b2d30;
+  border-color: ${colors.separatorBorder};
 }
 
 .monaco-editor .scroll-decoration {
@@ -187,12 +224,12 @@
 }
 
 .monaco-workbench .part.editor > .content .editor-group-container.active > .title .tabs-container > .tab.active {
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  box-shadow: ${colors.shadowPrimary} 0px 3px 6px, ${colors.shadowSecondary} 0px 3px 6px;
 }
 
 .monaco-split-view2.separator-border.vertical > .monaco-scrollable-element > .split-view-container > .split-view-view:not(:first-child):before,
 .monaco-split-view2.separator-border > .monaco-scrollable-element > .split-view-container > .split-view-view:not(:first-child):before {
-  background: #2b2d30 !important;
+  background: ${colors.separatorBorder} !important;
 }
 
 .monaco-workbench .part.titlebar > .titlebar-container > .titlebar-center > .window-title > .command-center .action-item.command-center-center {
@@ -202,15 +239,20 @@
 
 /* === Panel & Terminal Styling === */
 .part.panel .composite-bar-container .actions-container .action-item:not(.checked) a {
-  color: rgb(120, 120, 120) !important;
+  color: ${colors.text} !important;
 }
 
 .monaco-workbench .part.panel {
-  background: #ffffff !important;
+  background: ${colors.secondary} !important;
   margin: 10px 0px 0 0px;
   height: calc(100% - 10px) !important;
   border-radius: 0.5rem;
 }
+
+.monaco-workbench .part.panel .terminal-outer-container {
+  height: calc(100% - 16px) !important;
+}
+
 /* === Auxiliary Sidebar === */
 .monaco-workbench .part.auxiliarybar {
   margin-left: 10px !important;
@@ -226,11 +268,11 @@
 
 /* === Chat & Misc === */
 .monaco-grid-view {
-  background: #f2f2f2;
+  background: ${colors.background};
 }
 
 .interactive-session .chat-input-container {
-  background-color: #f3f8fe;
+  background-color: ${colors.chatInput};
 }
 
 .interactive-session .chat-input-container .chat-editor-container .monaco-editor {
@@ -238,7 +280,7 @@
 }
 
 .interactive-session .chat-input-container .chat-editor-container .monaco-editor .view-lines {
-  background: rgb(227, 237, 248);
+  background: ${colors.chatEditor};
   padding-left: 8px;
   padding-right: 8px;
 }
@@ -248,250 +290,20 @@
 }
 
 .monaco-sash.vertical {
-  background: #f2f2f2 !important;
+  background: ${colors.background} !important;
 }
-        `,
+        `;
+    },
 
-    darkThemeCSS: `
-/* === Sidebar and General Styling === */
-.monaco-list-row.selected,
-.monaco-list-row.focused {
-  box-shadow: inset 0 1px 0 #ffffff09 !important;
-  outline: 1px solid #00000020 !important;
-}
+    // Generate light theme CSS
+    lightThemeCSS: function() {
+      return this.getBaseCSS(this.lightThemeColors);
+    },
 
-.monaco-workbench .monaco-list:not(.element-focused):focus:before {
-  display: none;
-}
-
-.line-numbers {
-  width: 36px !important;
-}
-
-.current-line-margin-both {
-  background-color: #ffffff12 !important;
-  width: calc(100% - 16px) !important;
-  left: 12px !important;
-  border-radius: 4px;
-}
-
-.hover-widget {
-  backdrop-filter: blur(10px);
-}
-
-.monaco-button {
-  border-radius: 4px;
-  box-shadow: inset 0 1px 0 #ffffff09 !important;
-}
-
-.notification-toast {
-  backdrop-filter: blur(10px);
-  border: 1px solid #ffffff09 !important;
-  border-radius: 8px !important;
-}
-
-.sidebar ul[role=tablist] .action-item {
-  width: 32px;
-  padding: 0px !important;
-  height: 32px !important;
-  display: flex !important;
-  align-items: center;
-  justify-content: center;
-  border-radius: 4px;
-}
-
-.sidebar ul[role=tablist] .action-item.checked {
-  background-color: #ffffff12 !important;
-  box-shadow: inset 0 1px 0 #ffffff09 !important;
-  border-radius: 6px;
-  outline: 1px solid #00000020 !important;
-}
-
-.sidebar ul[role=tablist] .action-label:before {
-  left: auto !important;
-}
-
-.sidebar ul[role=tablist] .active-item-indicator {
-  display: none !important;
-}
-
-.find-widget {
-  border-radius: 6px;
-  backdrop-filter: blur(4px);
-}
-
-.monaco-inputbox,
-.scm-editor {
-  border-radius: 6px !important;
-}
-
-.slider {
-  border-radius: 4px;
-  backdrop-filter: blur(10px);
-}
-
-.monaco-button-dropdown {
-  border-radius: 6px !important;
-}
-
-.context-view.monaco-menu-container {
-  border: 1px solid #ffffff09 !important;
-  border-radius: 8px !important;
-}
-
-.suggest-widget {
-  border-radius: 6px !important;
-  backdrop-filter: blur(10px);
-  overflow: hidden;
-  box-shadow: 0 0 10px #00000030;
-}
-
-.suggest-widget .monaco-row {
-  border-radius: 0px !important;
-}
-
-.monaco-hover {
-  backdrop-filter: blur(10px);
-  border-radius: 8px !important;
-}
-
-.monaco-workbench .part.sidebar {
-  margin-left: 10px !important;
-  margin-right: 10px !important;
-  border-radius: 0.5rem;
-  display: flex;
-  flex-direction: column;
-}
-
-.monaco-workbench .part.sidebar > .content {
-  width: calc(100% - 10px) !important;
-}
-
-/* === Editor Styling === */
-.monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab {
-  border: none !important;
-  background: #1819b !important;
-}
-
-.monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab.active {
-  border-radius: 0.5rem;
-  border: 1px solid rgb(14, 80, 152) !important;
-}
-
-.editor-group-container {
-  border-radius: 0.5rem;
-  overflow: hidden;
-}
-
-.tabs-and-actions-container {
-  border-radius: 0.5rem 0.5rem 0 0;
-  background: #1819b;
-  padding: 0.35rem;
-}
-
-.editor-group-container .editor-container:has(.extension-editor) {
-  border-radius: 0.5rem;
-}
-
-.monaco-workbench .part.editor > .content {
-  position: relative;
-  background: #000000 !important;
-}
-
-.monaco-workbench .part.editor > .content .editor-group-container {
-  border-radius: 0.5rem;
-  overflow: hidden;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-}
-
-.monaco-editor {
-  border-radius: 0 0 0.5rem 0.5rem;
-  overflow: hidden;
-}
-
-.monaco-editor-background {
-  border-radius: 0.5rem;
-}
-
-.breadcrumbs-below-tabs {
-  overflow: hidden;
-  background: #1819b;
-}
-
-.monaco-breadcrumbs {
-  font-size: 0.7rem;
-}
-
-.monaco-editor .sticky-widget {
-  box-shadow: none;
-  border-color: #2b2d30;
-}
-
-.monaco-editor .scroll-decoration {
-  box-shadow: none;
-}
-
-.monaco-workbench .part.editor > .content .editor-group-container.active > .title .tabs-container > .tab.active {
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-}
-
-.monaco-split-view2.separator-border.vertical > .monaco-scrollable-element > .split-view-container > .split-view-view:not(:first-child):before,
-.monaco-split-view2.separator-border > .monaco-scrollable-element > .split-view-container > .split-view-view:not(:first-child):before {
-  background: #2b2d30 !important;
-}
-
-.monaco-workbench .part.titlebar > .titlebar-container > .titlebar-center > .window-title > .command-center .action-item.command-center-center {
-  border-radius: 0.5rem;
-  border: none;
-}
-
-/* === Panel & Terminal Styling === */
-.part.panel .composite-bar-container .actions-container .action-item:not(.checked) a {
-  color: rgb(120, 120, 120) !important;
-}
-
-.monaco-workbench .part.panel {
-  background: #1819b !important;
-  margin: 10px 0px 0 0px;
-  height: calc(100% - 10px) !important;
-  border-radius: 0.5rem;
-}
-/* === Auxiliary Sidebar === */
-.monaco-workbench .part.auxiliarybar {
-  margin-left: 10px !important;
-  margin-right: 10px !important;
-  border-radius: 0.5rem;
-  display: flex;
-  flex-direction: column;
-}
-
-.monaco-workbench .part.auxiliarybar > .content {
-  width: calc(100%) !important;
-}
-
-/* === Chat & Misc === */
-.monaco-grid-view {
-  background: #000000;
-}
-
-.interactive-session .chat-input-container {
-  background-color: #10253d;
-}
-
-.interactive-session .chat-input-container .chat-editor-container .monaco-editor {
-  width: calc(100%);
-}
-
-.interactive-session .chat-input-container .chat-editor-container .monaco-editor .view-lines {
-  background: #0d1f33;
-  padding-left: 8px;
-  padding-right: 8px;
-}
-
-.part.panel .composite {
-  border-top-color: transparent !important;
-}
-        `,
+    // Generate dark theme CSS
+    darkThemeCSS: function() {
+      return this.getBaseCSS(this.darkThemeColors);
+    },
 
     // Function to remove VS Code's inline styles
     removeInlineStyles: function () {
@@ -735,7 +547,7 @@
       console.log(`Detected theme: ${currentTheme}`);
 
       const cssContent =
-        currentTheme === "dark" ? this.darkThemeCSS : this.lightThemeCSS;
+        currentTheme === "dark" ? this.darkThemeCSS() : this.lightThemeCSS();
       this.updateCustomCSS(cssContent);
 
       console.log(`CSS applied for ${currentTheme} theme`);
@@ -785,8 +597,8 @@
   // Expose functions globally
   window.CSSInjector = {
     applyLightTheme: () =>
-      CSSInjector.updateCustomCSS(CSSInjector.lightThemeCSS),
-    applyDarkTheme: () => CSSInjector.updateCustomCSS(CSSInjector.darkThemeCSS),
+      CSSInjector.updateCustomCSS(CSSInjector.lightThemeCSS()),
+    applyDarkTheme: () => CSSInjector.updateCustomCSS(CSSInjector.darkThemeCSS()),
     remove: () => CSSInjector.removeCustomCSS(),
     detectTheme: () => CSSInjector.detectTheme(),
     applyThemeCSS: () => CSSInjector.applyThemeCSS(),
