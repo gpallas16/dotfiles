@@ -318,6 +318,10 @@ padding: 0 !important;
     --tab-border-top-color: transparent !important;
     --tab-border-bottom-color: transparent !important;
 }
+
+.monaco-workbench .part.editor>.content .editor-group-container>.title .title-label .label-name, .monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab .tab-label .label-name {
+    font-weight: 700;
+}
         `;
     },
 
