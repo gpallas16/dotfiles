@@ -312,7 +312,12 @@ padding: 0 !important;
 .monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.active.tab-border-top:not(:focus)>.tab-border-top-container, .monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.selected.tab-border-top:not(:focus)>.tab-border-top-container {
     background-color: transparent !important;
 }
-
+    
+.monaco-workbench .part.editor > .content .editor-group-container.active > .title .tabs-container > .tab.active {
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px, rgba(0, 0, 0, 0.0) 0px 0px 0px !important;
+    --tab-border-top-color: transparent !important;
+    --tab-border-bottom-color: transparent !important;
+}
         `;
     },
 
