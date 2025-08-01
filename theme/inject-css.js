@@ -9,15 +9,15 @@
 
     // Theme color variables
     lightThemeColors: {
-      primary: '#f2f2f2',
-      primaryAlpha09: '#f2f2f209',
-      primaryAlpha12: '#f2f2f212',
-      primaryAlpha20: '#f2f2f220',
-      primaryAlpha30: '#f2f2f230',
+      primary: '#e8eaed',
+      primaryAlpha09: '#e8eaed09',
+      primaryAlpha12: '#e8eaed12',
+      primaryAlpha20: '#e8eaed20',
+      primaryAlpha30: '#e8eaed30',
       secondary: '#ffffff',
       accent: 'rgb(119, 176, 240)',
       text: 'rgb(120, 120, 120)',
-      background: '#f2f2f2',
+      background: '#e8eaed',
       chatInput: '#f3f8fe',
       chatEditor: 'rgb(227, 237, 248)',
       separatorBorder: '#2b2d30',
@@ -308,6 +308,11 @@ padding: 0 !important;
 .monaco-sash.vertical {
   background: ${colors.background} !important;
 }
+
+.monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.active.tab-border-top:not(:focus)>.tab-border-top-container, .monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.selected.tab-border-top:not(:focus)>.tab-border-top-container {
+    background-color: transparent !important;
+}
+
         `;
     },
 
