@@ -9,15 +9,15 @@
 
     // Theme color variables
     lightThemeColors: {
-      primary: '#f2f2f2',
-      primaryAlpha09: '#f2f2f209',
-      primaryAlpha12: '#f2f2f212',
-      primaryAlpha20: '#f2f2f220',
-      primaryAlpha30: '#f2f2f230',
+      primary: '#e8eaed',
+      primaryAlpha09: '#e8eaed09',
+      primaryAlpha12: '#e8eaed12',
+      primaryAlpha20: '#e8eaed20',
+      primaryAlpha30: '#e8eaed30',
       secondary: '#ffffff',
       accent: 'rgb(119, 176, 240)',
       text: 'rgb(120, 120, 120)',
-      background: '#f2f2f2',
+      background: '#e8eaed',
       chatInput: '#f3f8fe',
       chatEditor: 'rgb(227, 237, 248)',
       separatorBorder: '#2b2d30',
@@ -74,6 +74,10 @@
 .monaco-button {
   border-radius: 4px;
   box-shadow: inset 0 1px 0 ${colors.primaryAlpha09} !important;
+}
+
+.monaco-workbench .part.editor>.content .editor-group-container.active>.title .tabs-container>.tab.active{
+background-color: var(--vscode-tab-activeBackground) !important;
 }
 
 .notification-toast {
@@ -186,14 +190,13 @@
 }
 
 .monaco-workbench .part.editor > .content {
-  position: relative;
   background: ${colors.background} !important;
 }
 
 .monaco-workbench .part.editor > .content .editor-group-container {
   border-radius: 0.5rem;
   overflow: hidden;
-  box-shadow: ${colors.shadowPrimary} 0px 3px 6px, ${colors.shadowSecondary} 0px 3px 6px;
+  box-shadow: ${colors.shadowPrimary} 0px 0px 0px, ${colors.shadowSecondary} 0px 0px 0px;
 }
 
 .monaco-editor {
@@ -235,6 +238,19 @@
 .monaco-workbench .part.titlebar > .titlebar-container > .titlebar-center > .window-title > .command-center .action-item.command-center-center {
   border-radius: 0.5rem;
   border: none;
+}
+
+.monaco-workbench .part.editor {
+  width: calc(100%) !important;
+}
+
+.monaco-workbench .part.editor > .content {
+padding: 0 !important;
+}
+
+.monaco-workbench .part.editor > .content .editor-group-container  { 
+  height: calc(100%) !important;
+  width: calc(100%) !important;
 }
 
 /* === Panel & Terminal Styling === */
@@ -291,6 +307,20 @@
 
 .monaco-sash.vertical {
   background: ${colors.background} !important;
+}
+
+.monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.active.tab-border-top:not(:focus)>.tab-border-top-container, .monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.selected.tab-border-top:not(:focus)>.tab-border-top-container {
+    background-color: transparent !important;
+}
+    
+.monaco-workbench .part.editor > .content .editor-group-container.active > .title .tabs-container > .tab.active {
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px, rgba(0, 0, 0, 0.0) 0px 0px 0px !important;
+    --tab-border-top-color: transparent !important;
+    --tab-border-bottom-color: transparent !important;
+}
+
+.monaco-workbench .part.editor>.content .editor-group-container>.title .title-label .label-name, .monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab .tab-label .label-name {
+    font-weight: 700;
 }
         `;
     },
