@@ -1,0 +1,305 @@
+.monaco-list-row.selected,
+.monaco-list-row.focused {
+  box-shadow: inset 0 1px 0 #ffffff09 !important;
+  outline: 1px solid #00000020 !important;
+}
+
+.monaco-workbench .monaco-list:not(.element-focused):focus:before {
+  display: none;
+}
+
+.line-numbers {
+  width: 36px !important;
+}
+
+.current-line-margin-both {
+  background-color: #ffffff12 !important;
+  width: calc(100% - 16px) !important;
+  left: 12px !important;
+  border-radius: 4px;
+}
+
+.quick-input-widget {
+  top: 50% !important;
+  transform: translateY(-51%);
+  backdrop-filter: blur(10px);
+  border: 1px solid #ffffff12;
+}
+
+.quick-input-widget .monaco-inputbox {
+  height: 32px !important;
+  border-radius: 8px;
+  margin-bottom: 4px;
+}
+
+.quick-input-widget .monaco-list-rows {
+  background: transparent !important;
+}
+
+.hover-widget {
+  backdrop-filter: blur(10px);
+}
+
+.monaco-button {
+  border-radius: 4px;
+  box-shadow: inset 0 1px 0 #ffffff09 !important;
+}
+
+.notification-toast {
+  backdrop-filter: blur(10px);
+  border: 1px solid #ffffff09 !important;
+  border-radius: 8px !important;
+}
+
+.sidebar ul[role="tablist"] .action-item {
+  width: 32px;
+  padding: 0px !important;
+  height: 32px !important;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+}
+
+.sidebar ul[role="tablist"] .action-item.checked {
+  background-color: #ffffff12 !important;
+  box-shadow: inset 0 1px 0 #ffffff09 !important;
+  border-radius: 6px;
+  outline: 1px solid #00000020 !important;
+}
+
+.sidebar ul[role="tablist"] .action-label:before {
+  left: auto !important;
+}
+
+.sidebar ul[role="tablist"] .active-item-indicator {
+  display: none !important;
+}
+
+.find-widget {
+  border-radius: 6px;
+  backdrop-filter: blur(4px);
+}
+
+.monaco-inputbox,
+.scm-editor {
+  border-radius: 6px !important;
+}
+
+.slider {
+  border-radius: 4px;
+  backdrop-filter: blur(10px);
+}
+
+.monaco-button-dropdown {
+  border-radius: 6px !important;
+}
+
+.context-view.monaco-menu-container {
+  border: 1px solid #ffffff09 !important;
+  border-radius: 8px !important;
+}
+
+.suggest-widget {
+  border-radius: 6px !important;
+  backdrop-filter: blur(10px);
+  overflow: hidden;
+  box-shadow: 0 0 10px #00000030;
+}
+
+.suggest-widget .monaco-row {
+  border-radius: 0px !important;
+}
+
+.monaco-hover {
+  backdrop-filter: blur(10px);
+  border-radius: 8px !important;
+}
+
+.monaco-workbench .part.sidebar {
+  margin-left: 10px !important;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Editor Styling */
+.monaco-workbench
+  .part.editor
+  > .content
+  .editor-group-container
+  > .title
+  .tabs-container
+  > .tab {
+  border: none !important;
+  background: #1819b !important;
+}
+
+.monaco-workbench
+  .part.editor
+  > .content
+  .editor-group-container
+  > .title
+  .tabs-container
+  > .tab.active {
+  border-radius: 0.5rem;
+  border: 1px solid rgb(14, 80, 152) !important;
+}
+
+.editor-group-container {
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.tabs-and-actions-container {
+  border-radius: 0.5rem 0.5rem 0 0;
+  background: #1819b;
+  padding: 0.35rem;
+}
+
+.editor-group-container .editor-container:has(.extension-editor) {
+  border-radius: 0.5rem;
+}
+
+.monaco-workbench .part.editor > .content {
+  padding: 0 10px 10px 10px;
+  position: relative;
+  background: #000000 !important;
+}
+
+.monaco-workbench
+  .part.editor
+  .monaco-scrollable-element
+  > .scrollbar.vertical {
+  margin-right: 24px;
+}
+
+.monaco-workbench .part.editor > .content .editor-group-container {
+  border-radius: 0.5rem;
+  height: calc(100% - 10px);
+  width: calc(100% - 20px);
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.monaco-editor {
+  border-radius: 0 0 0.5rem 0.5rem;
+  overflow: hidden;
+}
+
+.monaco-editor-background {
+  border-radius: 0.5rem;
+}
+
+.breadcrumbs-below-tabs {
+  overflow: hidden;
+  background: #1819b;
+}
+
+.monaco-breadcrumbs {
+  font-size: 0.7rem;
+}
+
+.monaco-editor .sticky-widget {
+  box-shadow: none;
+  border-color: #2b2d30;
+}
+
+.monaco-editor .scroll-decoration {
+  box-shadow: none;
+}
+
+.monaco-workbench
+  .part.editor
+  > .content
+  .editor-group-container.active
+  > .title
+  .tabs-container
+  > .tab.active {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.monaco-split-view2.separator-border.vertical
+  > .monaco-scrollable-element
+  > .split-view-container
+  > .split-view-view:not(:first-child):before,
+.monaco-split-view2.separator-border
+  > .monaco-scrollable-element
+  > .split-view-container
+  > .split-view-view:not(:first-child):before {
+  background: #2b2d30 !important;
+}
+
+.monaco-workbench
+  .part.titlebar
+  > .titlebar-container
+  > .titlebar-center
+  > .window-title
+  > .command-center
+  .action-item.command-center-center {
+  border-radius: 0.5rem;
+  border: none;
+}
+
+.monaco-workbench
+  .pane-composite-part
+  > .header-or-footer
+  > .composite-bar-container
+  > .composite-bar
+  > .monaco-action-bar
+  .action-item.checked
+  .active-item-indicator:before,
+.monaco-workbench
+  .pane-composite-part
+  > .header-or-footer
+  > .composite-bar-container
+  > .composite-bar
+  > .monaco-action-bar
+  .action-item:focus
+  .active-item-indicator:before,
+.monaco-workbench
+  .pane-composite-part
+  > .title
+  > .composite-bar-container
+  > .composite-bar
+  > .monaco-action-bar
+  .action-item.checked
+  .active-item-indicator:before,
+.monaco-workbench
+  .pane-composite-part
+  > .title
+  > .composite-bar-container
+  > .composite-bar
+  > .monaco-action-bar
+  .action-item:focus
+  .active-item-indicator:before {
+  border-top-width: 1px;
+}
+
+/* Terminal Styling */
+.part.panel
+  .composite-bar-container
+  .actions-container
+  .action-item:not(.checked)
+  a {
+  color: rgb(120, 120, 120) !important;
+}
+
+.monaco-workbench .part.panel {
+  background: #1819b !important;
+  margin: 0 10px 0 10px;
+  border-radius: 0.5rem;
+}
+
+/* Secondary Sidebar */
+.monaco-workbench .part.auxiliarybar {
+  margin-right: 10px !important;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Grid Background */
+.monaco-grid-view {
+  background: #000000;
+}
