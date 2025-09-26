@@ -1,1 +1,13 @@
  Install-Module VirtualDesktop                                                                        
+
+
+AutolDarkMode script
+Enabled: true
+Component:
+  Scripts:
+  - Name: powershell wallpaper switch
+    Command: powershell
+    WorkingDirectory: C:\Users\gpall\AppData\Roaming\AutoDarkMode
+    ArgsLight: [-Command,  Install-Module VirtualDesktop & Set-AllDesktopWallpapers -Path "C:\Users\gpall\Projects\dotfiles\theme\erty.jpg"]
+    ArgsDark: [-Command,  Install-Module VirtualDesktop & Set-AllDesktopWallpapers -Path "C:\Users\gpall\Projects\dotfiles\theme\erty-dark.png"]
+    AllowedSources: [Any]
