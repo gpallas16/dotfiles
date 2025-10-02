@@ -99,8 +99,8 @@ WallpaperSwitch:
     TypeDark: Global
     Position: Fill
     GlobalWallpaper:
-      Light: C:\Users\gpall\Projects\dotfiles\theme\Abstract-Dreamscapes-l.png
-      Dark: C:\Users\gpall\Projects\dotfiles\theme\Abstract-Dreamscapes-d.png
+      Light: C:\Users\gpall\Projects\dotfiles\theme\Fluid-l.png
+      Dark: C:\Users\gpall\Projects\dotfiles\theme\Fluid-d.png
     SolidColors:
       Light: '#FFFFFF'
       Dark: '#000000'
