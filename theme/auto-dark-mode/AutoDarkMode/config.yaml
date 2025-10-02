@@ -1,0 +1,121 @@
+AutoThemeSwitchingEnabled: true
+Governor: Default
+Autostart:
+  Validate: true
+WindowsThemeMode:
+  Enabled: false
+  DarkThemePath: C:\Users\gpall\AppData\Local\Microsoft\Windows\Themes\Erty (Dark).theme
+  LightThemePath: C:\Users\gpall\AppData\Local\Microsoft\Windows\Themes\Erty (Light) (2).theme
+  MonitorActiveTheme: false
+  ApplyFlags: []
+AppsSwitch:
+  Enabled: true
+  Component:
+    Mode: Switch
+SystemSwitch:
+  Enabled: true
+  Component:
+    Mode: Switch
+    TaskbarSwitchDelay: 1200
+    TaskbarColorOnAdaptive: false
+    TaskbarColorWhenNonAdaptive: Light
+    DWMPrevalenceSwitch: false
+    DWMPrevalenceEnableTheme: Light
+TouchKeyboardSwitch:
+  Enabled: false
+  Component: {}
+ColorizationSwitch:
+  Enabled: true
+  Component:
+    LightHex: '#FF0078D4'
+    DarkHex: '#FF0063B1'
+    LightAutoColorization: false
+    DarkAutoColorization: false
+ColorFilterSwitch:
+  Enabled: false
+  Component: {}
+OfficeSwitch:
+  Enabled: false
+  Component:
+    Mode: Switch
+    LightTheme: 0
+    DarkTheme: 4
+CursorSwitch:
+  Enabled: true
+  Component:
+    CursorsLight: Windows 11 Fluent Cursors v2 Small Dark
+    CursorsDark: Windows 11 Fluent Cursors v2 Small Light
+Sunrise: 2025-09-16T07:00:00.0000000
+Sunset: 2025-09-16T18:00:00.0000000
+Location:
+  PollingCooldownTimeSpan: 1.00:00:00
+  Enabled: true
+  UseGeolocatorService: true
+  SunsetOffsetMin: -45
+  SunriseOffsetMin: 0
+  CustomLat: 0
+  CustomLon: 0
+Tunable:
+  BatterySliderDefaultValue: 25
+  DisableEnergySaverOnThemeSwitch: false
+  UseLogonTask: false
+  Debug: false
+  Trace: false
+  DebugTimerMessage: false
+  ShowTrayIcon: true
+  AlwaysFullDwmRefresh: false
+  UICulture: en
+GPUMonitoring:
+  Enabled: false
+  Threshold: 30
+  Samples: 1
+ProcessBlockList:
+  ProcessNames: []
+  Enabled: false
+Events:
+  DarkThemeOnBattery: false
+  Win10AllowLockscreenSwitch: false
+Notifications:
+  OnAutoThemeSwitching: true
+  OnSkipNextSwitch: true
+AutoSwitchNotify:
+  Enabled: false
+  GracePeriodMinutes: 5
+Hotkeys:
+  Enabled: false
+  ForceLight: 
+  ForceDark: 
+  NoForce: 
+  ToggleTheme: 
+  TogglePostpone: 
+  ToggleAutoThemeSwitch: 
+IdleChecker:
+  Enabled: false
+  Threshold: 5
+WallpaperSwitch:
+  Enabled: true
+  Component:
+    TypeLight: Global
+    TypeDark: Global
+    Position: Fill
+    GlobalWallpaper:
+      Light: C:\Users\gpall\Projects\dotfiles\theme\Abstract-Dreamscapes-l.png
+      Dark: C:\Users\gpall\Projects\dotfiles\theme\Abstract-Dreamscapes-d.png
+    SolidColors:
+      Light: '#FFFFFF'
+      Dark: '#000000'
+    Monitors:
+    - Id: '\\?\DISPLAY#LHC3400#5&15335277&0&UID20736#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}'
+      LightThemeWallpaper: C:\Users\gpall\OneDrive\Documents\Θέματα\MountainMono\joshua-sortino-xZqr8WtYEJ0-unsplash.jpg
+      DarkThemeWallpaper: C:\Users\gpall\OneDrive\Documents\Θέματα\MountainMono\joshua-sortino-xZqr8WtYEJ0-unsplash.jpg
+Updater:
+  AutoInstall: true
+  Enabled: true
+  Silent: false
+  DaysBetweenUpdateCheck: 7
+  CheckOnStart: true
+  VersionQueryUrl: 
+  DownloadBaseUrl: 
+  ZipCustomUrl: 
+  HashCustomUrl: 
+

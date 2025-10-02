@@ -1,0 +1,10 @@
+Enabled: true
+Component:
+  Scripts:
+  - Name: powershell wallpaper switch
+    Command: powershell
+    WorkingDirectory: C:\Users\gpall\AppData\Roaming\AutoDarkMode
+    ArgsLight: [-Command, 'powershell -ExecutionPolicy Bypass -File "C:\Users\gpall\Projects\dotfiles\theme\auto-dark-mode\LightMode.ps1"']
+    ArgsDark: [-Command, ' powershell -ExecutionPolicy Bypass -File "C:\Users\gpall\Projects\dotfiles\theme\auto-dark-mode\DarkMode.ps1"']
+    AllowedSources: [Any]
+
