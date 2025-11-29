@@ -1,0 +1,12 @@
+[Unit]
+Description=Disable GPP0 ACPI Wakeup for NVMe
+Before=sleep.target
+StopWhenUnneeded=yes
+
+[Service]
+Type=oneshot
+# This command toggles the GPP0 device to 'disabled' (no wakeup)
+ExecStart=/bin/sh -c "echo GPP0 > /proc/acpi/wakeup"
+
+[Install]
+WantedBy=multi-user.target
